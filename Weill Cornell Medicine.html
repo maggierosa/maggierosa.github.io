@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://weill.cornell.edu/ -->
+<html lang="en" dir="ltr" class="js" style="scroll-padding-top: 70px;"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./Weill Cornell Medicine_files/94755092d6"></script><script src="./Weill Cornell Medicine_files/nr-1216.min.js"></script><script async="" src="./Weill Cornell Medicine_files/analytics.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"94755092d6",applicationID:"139756650"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://weill.cornell.edu/sites/all/themes/wcm_edu/favicon.ico">
+<meta name="description" content="For over 100 years, Weill Cornell Medicine in New York City has been a community of world-class physicians, researchers and educators coming together to care, discover and teach.">
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)">
+<link rel="canonical" href="https://weill.cornell.edu/">
+<link rel="shortlink" href="https://weill.cornell.edu/">
+    <title>Weill Cornell Medicine</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-57x57.png?v=2">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-60x60.png?v=2">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-72x72.png?v=2">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-76x76.png?v=2">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-114x114.png?v=2">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-120x120.png?v=2">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-144x144.png?v=2">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-152x152.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/apple-touch-icon-180x180.png?v=2">
+    <link rel="icon" type="image/png" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/favicon-32x32.png?v=2" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/favicon-194x194.png?v=2" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/favicon-96x96.png?v=2" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/android-chrome-192x192.png?v=2" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/favicon-16x16.png?v=2" sizes="16x16">
+    <link rel="manifest" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/manifest.json?v=2">
+    <link rel="mask-icon" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/safari-pinned-tab.svg?v=2" color="#b31b1b">
+    <link rel="shortcut icon" href="https://weill.cornell.edu/profiles/wcmc/themes/wcm_brand_base/favicons/favicon.ico?v=2">
+    <meta name="apple-mobile-web-app-title" content="Weill Cornell Medicine">
+    <meta name="application-name" content="Weill Cornell Medicine">
+    <meta name="msapplication-TileColor" content="#b31b1b">
+    <meta name="msapplication-TileImage" content="/profiles/wcmc/themes/wcm_brand_base/favicons/mstile-144x144.png?v=2">
+    <meta name="msapplication-config" content="/profiles/wcmc/themes/wcm_brand_base/favicons/browserconfig.xml?v=2">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Weill Cornell Medicine_files/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css_I36SWdHkPiExIS9QlQfcPmle87mvliBQ7J1H8gj0oS8.css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css_Qy6ultFXDhlSvqISlw1UxbOj485anUebaOnsG6yDQsY.css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css_bJxxyCJ4-J-TM9QBjzzqco35SCvzzGGyr0pi0Y2E-H0.css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css_kX10OqPlXeVkk0SoYp0C6snFK2j2xA5rBaoXUL12DLw.css">
+<link rel="stylesheet" href="./Weill Cornell Medicine_files/css_PxsPpITToy8ZnO0bJDA1TEC6bbFpGTfSWr2ZP8LuFYo.css">
+    <script src="./Weill Cornell Medicine_files/js_XexEZhbTmj1BHeajKr2rPfyR8Y68f4rm0Nv3Vj5_dSI.js"></script>
+<script src="./Weill Cornell Medicine_files/js_yHmT8ivyAv8ihTsCjpFgyMRXsWdYt8dI519SpCJooZk.js"></script>
+<script src="./Weill Cornell Medicine_files/js_ZwS1apvJy55IRvT-MWd4TS2mPeK6GdxLbjQe7th0Rd0.js"></script>
+<script src="./Weill Cornell Medicine_files/js_00EQJuGraRV_f7Tj9kog-RlkEtK01HpEnT0M1jbfBp0.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-33122663-2", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="./Weill Cornell Medicine_files/js_m-iIyKzZ9ibld3cV5lSwQh5iQZ643AZDIul9AZmZqWo.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"wcm_edu","theme_token":"WeW50ZLxvOAbVFqZkF-qXbcIYLDKJUGiAHNGrLOyNMI","js":{"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/js\/wcmc_modal.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.js":1,"profiles\/wcmc\/modules\/custom\/wcm_accessibility\/js\/wcm-accessibility.js":1,"sites\/all\/themes\/wcm_edu\/js\/jquery.stellar.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/headroom.min.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/wcm-pin-header.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/wcm-external-links.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/jquery.lockfixed-revB.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/images\/cta_icons\/svgxuse.min.js":1,"\/\/siteimproveanalytics.com\/js\/siteanalyze_26716.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/js\/fancybox\/jquery.fancybox.pack.js":1,"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/js\/fancybox\/helpers\/jquery.fancybox-buttons.js":1,"profiles\/wcmc\/modules\/custom\/wcm_slide_nav\/js\/simplebar.min.js":1,"profiles\/wcmc\/modules\/custom\/wcm_slide_nav\/js\/wcm-slide-nav.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_images\/panopoly-images.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_admin\/panopoly-admin.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_magic\/panopoly-magic.js":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js":1,"profiles\/wcmc\/modules\/custom\/wcmc_banner_receiver\/js\/wcmc_banner_receiver.js":1,"profiles\/wcmc\/modules\/custom\/wcm_d7_paragraphs\/js\/wcm-d7-paragraphs.js":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/wcmc\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/modules\/custom\/wcm_edu_custom_panes\/js\/wcm_highlight_teasers.js":1,"profiles\/wcmc\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/bootstrap.min.js":1,"profiles\/wcmc\/themes\/wcm_brand_base\/js\/wcm-brand-base-script.js":1,"sites\/all\/themes\/wcm_edu\/js\/wcm_edu.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/js\/fancybox\/jquery.fancybox.css":1,"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/js\/fancybox\/helpers\/jquery.fancybox-buttons.css":1,"profiles\/wcmc\/modules\/custom\/wcm_slide_nav\/css\/simplebar.css":1,"profiles\/wcmc\/modules\/custom\/wcm_slide_nav\/css\/wcm-slide-nav.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/date\/date_api\/date.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_admin\/panopoly-admin-navbar.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_magic\/css\/panopoly-magic.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_theme\/css\/panopoly-featured.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_theme\/css\/panopoly-layouts.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_wysiwyg\/panopoly-wysiwyg.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/wcmc\/modules\/custom\/wcmc_fieldable_panes\/css\/wcmc_headshot.css":1,"profiles\/wcmc\/modules\/custom\/wcm_d7_paragraphs\/css\/wcm-d7-paragraphs.css":1,"profiles\/wcmc\/modules\/custom\/wcm_elasticsearch\/css\/wcm-elasticsearch.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/views\/css\/views.css":1,"profiles\/wcmc\/modules\/custom\/panopoly_override\/css\/panopoly-override.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/ctools\/css\/ctools.css":1,"profiles\/wcmc\/modules\/panopoly\/contrib\/panels\/css\/panels.css":1,"https:\/\/fonts.googleapis.com\/css?family=Open+Sans:400,300,300italic,400italic,700,700italic":1,"profiles\/wcmc\/themes\/wcm_brand_base\/css\/wcm_brand_base.css":1,"sites\/all\/themes\/wcm_edu\/css\/wcm_edu.css":1,"profiles\/wcmc\/modules\/panopoly\/panopoly\/panopoly_images\/panopoly-images.css":1}},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"panopoly_magic":{"pane_add_preview_mode":"single"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"currentPath":"home","currentPathIsAdmin":false,"urlIsAjaxTrusted":{"\/":true},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-home region-content no-navbar jquery-once-1-processed js" style="scroll-padding-top: 70px;">
+    <div id="skip-link">
+      <a href="https://weill.cornell.edu/#site-main">Skip to main content</a>
+    </div>
+        <header id="pinned-header" class="animated headroom--top headroom--not-bottom">
+    <div class="wcm-search"><div class="container"><form class="global-search" action="https://weill.cornell.edu/" method="post" id="wcm-elasticsearch-blocks-widget-radios" accept-charset="UTF-8" role="search"><span class="search-button-span"><input class="search-button form-submit btn btn-default btn-primary" type="submit" id="edit-submit--2" name="op" value="Perform search"><svg class="cta-icon cta-icon-search"><use xlink:href="/profiles/wcmc/themes/wcm_brand_base/images/cta_icons/symbol-defs.svg#cta-icon-search"></use></svg></span><span><div class="form-item form-type-textfield form-item-search-keys form-group">
+  <label class="element-invisible" for="edit-search-keys--2">Enter the terms you wish to search for. </label>
+ <input placeholder="Enter Search Term..." class="global-search-input form-control form-text" role="searchbox" type="text" id="edit-search-keys--2" name="search_keys" value="" size="25" maxlength="128">
+</div>
+</span><fieldset><legend class="sr-only">Select Search Option</legend><div id="edit-search-type--2" class="form-radios"><div class="form-item form-type-radio form-item-search-type radio">
+  <label for="edit-search-type-pages" class="checked"><input type="radio" id="edit-search-type-pages" name="search_type" value="pages" checked="checked" class="form-radio">WCM Sites </label>
+</div>
+<div class="form-item form-type-radio form-item-search-type radio">
+  <label for="edit-search-type-people"><input type="radio" id="edit-search-type-people" name="search_type" value="people" class="form-radio">Directory </label>
+</div>
+</div></fieldset><input type="hidden" name="form_build_id" value="form-73SlQ18CZ180D5cc2rYc_A9PN_9TvSF43VxoYn1tDxc">
+<input type="hidden" name="form_id" value="wcm_elasticsearch_blocks_widget_radios">
+</form></div></div>
+    <div class="brand__nav brand__nav-site-logo">
+    <div class="wrap">
+      <div class="main-menu-toggle" tabindex="0" aria-label="Open navigation" aria-controls="slide-out-nav" aria-pressed="false">Menu</div>
+
+      <div class="wcm-sm-white">
+        <a href="https://weill.cornell.edu/">
+          <img src="./Weill Cornell Medicine_files/WCM_logo_white.png" alt="Weill Cornell Medicine">
+        </a>
+      </div>
+
+      <ul class="wcm-global-links">
+              <li class="wcm-global-links__wcm first"><a href="https://weill.cornell.edu/">Weill Cornell Medicine</a></li>
+        <li><a href="https://weillcornell.org/" target="_blank">Care</a></li>
+               <li><a href="https://research.weill.cornell.edu/" target="_blank">Discover</a></li>
+        <li class="last"><a href="https://weill.cornell.edu/education">Teach</a></li>
+      </ul>
+
+      <div class="wcm-global-links--secondary-actions">
+                <div class="wayfinder dropdown">
+          <button class="dropdown-toggle" type="button" id="visitor-wayfinder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            I am interested in...
+            <span class="selection-arrow"></span>
+          </button>
+          <h2 class="element-invisible">Wayfinder menu</h2><ul class="dropdown-menu dropdown-menu-right" aria-labelledby="visitor-wayfinder"><li class="menu-2002 first"><a href="https://medicaleducation.weill.cornell.edu/" title="" target="_blank">Pursuing an MD degree</a></li>
+<li class="menu-2003"><a href="https://gradschool.weill.cornell.edu/" title="" target="_blank">Pursuing a graduate degree</a></li>
+<li class="menu-2091"><a href="https://weill.cornell.edu/faculty" title="">Finding faculty</a></li>
+<li class="menu-2001"><a href="https://weillcornell.org/find-a-physician" title="" target="_blank">Finding a physician</a></li>
+<li class="menu-2004"><a href="https://careers.weill.cornell.edu/" title="" target="_blank">Starting a career at WCM</a></li>
+<li class="menu-2005"><a href="https://news.weill.cornell.edu/" title="" target="_blank">Reading the latest WCM news</a></li>
+<li class="menu-2006 last"><a href="https://give.weill.cornell.edu/" title="" target="_blank">Giving to WCM</a></li>
+</ul>        </div>
+        
+        <div class="search-trigger" tabindex="0">
+          <span role="button" aria-label="Reveal search bar" class="search-trigger-button search-trigger-button--find">
+            <svg class="cta-icon cta-icon-search">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/wcmc/themes/wcm_brand_base/images/cta_icons/symbol-defs.svg#cta-icon-search"></use>
+            </svg>
+          </span>
+          <span role="button" aria-label="Hide search bar" class="search-trigger-button search-trigger-button--close">
+            <svg class="cta-icon cta-icon-close">
+              <use xlink:href="/profiles/wcmc/themes/wcm_brand_base/images/cta_icons/symbol-defs.svg#cta-icon-close"></use>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="page">
+  <div class="brand">
+  <div class="brand__lockup">
+    <div class="container">
+              <div class="brand__logo">
+          <a class="wcm-site-logo" href="https://weill.cornell.edu/"><img src="./Weill Cornell Medicine_files/wcm_2line_cobrand_rgb.png" alt="Weill Cornell Medicine"></a>
+        </div>
+        <a class="wcm-site-title wcm-site-title--lockup" href="https://weill.cornell.edu/">Weill Cornell Medicine</a>
+          </div>
+  </div>
+</div>
+  <nav id="slide-out-nav" aria-label="Slideout" data-simplebar="init"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden;"><div class="simplebar-content" style="padding: 0px;">
+  <div class="slide-out-nav__help">Explore this Website</div>
+      <div class="wayfinder wayfinder--sm dropdown">
+      <button class="dropdown-toggle" type="button" id="visitor-wayfinder--sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        I am interested in...
+        <span class="selection-arrow"></span>
+      </button>
+      <h2 class="element-invisible">Wayfinder menu</h2><ul class="dropdown-menu dropdown-menu-right" aria-labelledby="visitor-wayfinder--sm"><li class="menu-2002 first"><a href="https://medicaleducation.weill.cornell.edu/" title="" target="_blank">Pursuing an MD degree</a></li>
+<li class="menu-2003"><a href="https://gradschool.weill.cornell.edu/" title="" target="_blank">Pursuing a graduate degree</a></li>
+<li class="menu-2091"><a href="https://weill.cornell.edu/faculty" title="">Finding faculty</a></li>
+<li class="menu-2001"><a href="https://weillcornell.org/find-a-physician" title="" target="_blank">Finding a physician</a></li>
+<li class="menu-2004"><a href="https://careers.weill.cornell.edu/" title="" target="_blank">Starting a career at WCM</a></li>
+<li class="menu-2005"><a href="https://news.weill.cornell.edu/" title="" target="_blank">Reading the latest WCM news</a></li>
+<li class="menu-2006 last"><a href="https://give.weill.cornell.edu/" title="" target="_blank">Giving to WCM</a></li>
+</ul>    </div>
+    <div id="slide-nav">
+<ul class="menu"><li class="level-1 home"><a href="https://weill.cornell.edu/">Home</a></li><li class="first menu-mlid-2012 level-1" data-level="1"><a href="https://weill.cornell.edu/our-story" class="has-child">Our Story</a><button class="slide-nav-toggle" aria-expanded="false" style="height: 53px;"><span class="element-invisible">Toggle Our Story menu options</span></button><ul class="collapse menu menu--level-2"><li class="first menu-mlid-2018 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/history">History</a></li>
+<li class="menu-mlid-2020 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/leadership/augustine-choi" title="">About Dean Choi</a></li>
+<li class="menu-mlid-2019 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/vision-statement">Vision Statement</a></li>
+<li class="menu-mlid-2021 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/deans-messages">Dean's Messages</a></li>
+<li class="menu-mlid-2107 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/boards-and-councils" class="has-child">Boards and Councils</a><button class="slide-nav-toggle" aria-expanded="false"><span class="element-invisible">Toggle Boards and Councils menu options</span></button><ul class="collapse menu menu--level-3"><li class="first menu-mlid-2554 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/boards-and-councils/board-fellows" class="has-child">Board of Fellows</a><button class="slide-nav-toggle" aria-expanded="false"><span class="element-invisible">Toggle Board of Fellows menu options</span></button><ul class="collapse menu menu--level-4"><li class="first menu-mlid-2555 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/board-fellows/board-members">Board Members</a></li>
+<li class="menu-mlid-2556 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/board-fellows/committee-members">Committee Members</a></li>
+<li class="menu-mlid-2566 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/board-fellows/full-time-faculty-election">Full-time Faculty Election</a></li>
+<li class="last menu-mlid-2557 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/board-fellows/master-calendar">Master Calendar</a></li>
+</ul></li>
+<li class="menu-mlid-2060 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/boards-and-councils/executive-faculty-council" class="has-child">Executive Faculty Council</a><button class="slide-nav-toggle" aria-expanded="false"><span class="element-invisible">Toggle Executive Faculty Council menu options</span></button><ul class="collapse menu menu--level-4"><li class="first last menu-mlid-2567 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/executive-faculty-council/efc-meeting-dates">EFC Meeting Dates</a></li>
+</ul></li>
+<li class="last menu-mlid-2059 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/boards-and-councils/general-faculty-council" class="has-child">General Faculty Council</a><button class="slide-nav-toggle" aria-expanded="false"><span class="element-invisible">Toggle General Faculty Council menu options</span></button><ul class="collapse menu menu--level-4"><li class="first last menu-mlid-2568 level-4" data-level="4"><a href="https://weill.cornell.edu/our-story/boards-and-councils/general-faculty-council/gfc-meeting-dates">GFC Meeting Dates</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-mlid-2022 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/leadership" class="has-child">Leadership</a><button class="slide-nav-toggle" aria-expanded="false"><span class="element-invisible">Toggle Leadership menu options</span></button><ul class="collapse menu menu--level-3"><li class="first menu-mlid-2030 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/senior-leadership">Senior Leadership</a></li>
+<li class="menu-mlid-2031 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/department-chairs">Department Chairs</a></li>
+<li class="menu-mlid-2032 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/administration-and-operations-leadership">Administration and Operations Leadership</a></li>
+<li class="menu-mlid-2033 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/clinical-affairs-leadership">Clinical Affairs Leadership</a></li>
+<li class="menu-mlid-2100 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/diversity-and-inclusion-leadership">Diversity and Inclusion Leadership</a></li>
+<li class="menu-mlid-2037 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/medical-education-leadership">Medical Education Leadership</a></li>
+<li class="menu-mlid-2034 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/external-affairs-leadership">External Affairs Leadership</a></li>
+<li class="menu-mlid-2035 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/faculty-affairs-and-development-leadership">Faculty Affairs and Development Leadership</a></li>
+<li class="menu-mlid-2569 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/finance-and-budget-leadership" title="">Finance and Budget Leadership</a></li>
+<li class="menu-mlid-2036 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/graduate-school-leadership">Graduate School Leadership</a></li>
+<li class="menu-mlid-2570 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/information-technology-leadership">Information Technology Leadership</a></li>
+<li class="menu-mlid-2101 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/international-affairs-and-affiliations-leadership">International Affairs and Affiliations Leadership</a></li>
+<li class="menu-mlid-2038 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/physician-organization-leadership">Physician Organization Leadership</a></li>
+<li class="menu-mlid-2039 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/research-leadership">Research Leadership</a></li>
+<li class="last menu-mlid-2040 level-3" data-level="3"><a href="https://weill.cornell.edu/our-story/leadership/wcm-qatar-leadership">WCM-Qatar Leadership</a></li>
+</ul></li>
+<li class="menu-mlid-2029 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/priority-highlights/mentorship">Mentorship</a></li>
+<li class="menu-mlid-2027 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/priority-highlights/diversity">Diversity</a></li>
+<li class="menu-mlid-2028 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/priority-highlights/international-affairs">International Affairs</a></li>
+<li class="menu-mlid-2026 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/priority-highlights/innovation">Innovation</a></li>
+<li class="menu-mlid-2055 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/affiliations">Affiliations</a></li>
+<li class="menu-mlid-2024 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/maps-and-directions">Maps and Directions</a></li>
+<li class="last menu-mlid-2025 level-2" data-level="2"><a href="https://weill.cornell.edu/our-story/contact-weill-cornell-medicine">Contact Weill Cornell Medicine</a></li>
+</ul></li>
+<li class="menu-mlid-2013 level-1" data-level="1"><a href="https://weill.cornell.edu/patient-care">Patient Care</a></li>
+<li class="menu-mlid-2014 level-1" data-level="1"><a href="https://weill.cornell.edu/research">Research</a></li>
+<li class="menu-mlid-2015 level-1" data-level="1"><a href="https://weill.cornell.edu/education">Education</a></li>
+<li class="menu-mlid-2016 level-1" data-level="1"><a href="https://weill.cornell.edu/faculty">Faculty</a></li>
+<li class="last menu-mlid-2017 level-1" data-level="1"><a href="https://weill.cornell.edu/departments">Departments</a></li>
+</ul></div>  <ul class="wcm-global-links--sm">
+    <li><a href="https://weill.cornell.edu/">Weill Cornell Medicine</a></li>
+    <li><a href="https://weillcornell.org/" target="_blank">Care</a></li>
+    <li><a href="https://research.weill.cornell.edu/" target="_blank">Discover</a></li>
+    <li><a href="https://weill.cornell.edu/education">Teach</a></li>
+  </ul>
+</div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 475px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: hidden;"><div class="simplebar-scrollbar" style="height: 0px; display: none;"></div></div></nav>
+
+<nav class="main-nav" aria-label="Primary">
+  <div class="container">
+    <div id="main-nav">
+<ul class="menu"><li class="level-1 home"><a href="https://weill.cornell.edu/">Home</a></li><li class="first has-children menu-mlid-2012 level-1"><a href="https://weill.cornell.edu/our-story">Our Story</a></li>
+<li class="menu-mlid-2013 level-1"><a href="https://weill.cornell.edu/patient-care">Patient Care</a></li>
+<li class="menu-mlid-2014 level-1"><a href="https://weill.cornell.edu/research">Research</a></li>
+<li class="menu-mlid-2015 level-1"><a href="https://weill.cornell.edu/education">Education</a></li>
+<li class="menu-mlid-2016 level-1"><a href="https://weill.cornell.edu/faculty">Faculty</a></li>
+<li class="last menu-mlid-2017 level-1"><a href="https://weill.cornell.edu/departments">Departments</a></li>
+</ul></div>  </div>
+</nav>
+
+
+
+  <div id="site-main" class="site-main">
+    <div class="container">
+                                  </div>
+    
+  
+  <div class="panel-onecol-full">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel-pane pane-wcm-home-panels">
+  
+      
+  
+  <div class="wcm-edu-home-panels">
+  <div aria-controls="wcm-edu-home-panel-text--care" aria-label="Open care panel" aria-pressed="false" role="button" class="wcm-edu-home-panel wcm-edu-home-panel--care" data-target="#wcm-edu-home-panel-text--care" data-id-label="care" tabindex="0">
+    <div class="wcm-home-panel__title">
+      <h2>Care</h2>
+    </div>
+    <div tabindex="-1" class="wcm-home-panel__toggle"></div>
+    <div class="wcm-edu-home-panel-text__mini-teaser">
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine faculty and staff put patients first. WCM physicians are among the top in the nation and stay on the leading edge of new procedures and technologies.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/patient-care" class="institutional-link">See what we are doing in Patient Care</a>
+      </div>
+    </div>
+  </div>
+  <div aria-controls="wcm-edu-home-panel-text--discover" aria-label="Open discover panel" aria-pressed="false" role="button" class="wcm-edu-home-panel wcm-edu-home-panel--discover" data-target="#wcm-edu-home-panel-text--discover" data-id-label="discover" tabindex="0">
+    <div class="wcm-home-panel__title">
+      <h2>Discover</h2>
+    </div>
+    <div tabindex="-1" class="wcm-home-panel__toggle"></div>
+    <div class="wcm-edu-home-panel-text__mini-teaser">
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine researchers work to advance laboratory breakthroughs in common health challenges, such as cancer, cardiovascular disease, Parkinson's and Alzheimer's.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/research" class="institutional-link">See what we are doing in Research</a>
+      </div>
+    </div>
+  </div>
+  <div aria-controls="wcm-edu-home-panel-text--teach" aria-label="Open teach panel" aria-pressed="false" role="button" class="wcm-edu-home-panel wcm-edu-home-panel--teach" data-target="#wcm-edu-home-panel-text--teach" data-id-label="teach" tabindex="0">
+    <div class="wcm-home-panel__title">
+      <h2>Teach</h2>
+    </div>
+    <div tabindex="-1" class="wcm-home-panel__toggle"></div>
+    <div class="wcm-edu-home-panel-text__mini-teaser">
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine educational programs are among the most selective in the nation, with unique international partnerships and comprehensive student services.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/education" class="institutional-link">See what we are doing in Education</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wcm-edu-home-panel-text" id="wcm-edu-home-panel-text--care" hidden="">
+    <div class="wcm-edu-home-panel-text__top-links">
+      <ul><li><a href="https://weillcornell.org/" class="institutional-link" target="_blank">Patient Care Website</a></li></ul>
+    </div>
+    <div class="wcm-edu-home-panel-text__wrapper">
+      <div class="wcm-edu-home-panel-text__headline">
+        Exceptional Patient Care is the Heart and Soul of our Mission
+      </div>
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine faculty and staff put patients first. WCM physicians are among the top in the nation and stay on the leading edge of new procedures and technologies.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/patient-care" class="institutional-link">See what we are doing in Patient Care</a>
+      </div>
+    </div>
+  </div>
+  <div class="wcm-edu-home-panel-text" id="wcm-edu-home-panel-text--discover" hidden="">
+    <div class="wcm-edu-home-panel-text__top-links">
+      <ul>
+        <li><a title="Visit the main WCM Research site" href="https://research.weill.cornell.edu/" class="institutional-link" target="_blank">Research</a></li>
+        <li><a href="https://jcto.weill.cornell.edu/" class="institutional-link" target="_blank">Clinical Trials</a></li>
+        <li><a href="https://ctscweb.weill.cornell.edu/" class="institutional-link" target="_blank">Clinical and Translational Science Center</a></li>
+      </ul>
+    </div>
+    <div class="wcm-edu-home-panel-text__wrapper">
+      <div class="wcm-edu-home-panel-text__headline">
+        We Discover Innovative Cures and Treatments
+      </div>
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine researchers work to advance laboratory breakthroughs in common health challenges, such as cancer, cardiovascular disease, Parkinson's and Alzheimer's.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/research" class="institutional-link">See what we are doing in Research</a>
+      </div>
+    </div>
+  </div>
+  <div class="wcm-edu-home-panel-text" id="wcm-edu-home-panel-text--teach" hidden="">
+    <div class="wcm-edu-home-panel-text__top-links">
+      <ul>
+        <li><a href="https://medicaleducation.weill.cornell.edu/" class="institutional-link" target="_blank">MD Education</a></li>
+        <li><a href="https://gradschool.weill.cornell.edu/" class="institutional-link" target="_blank">Graduate School</a></li>
+        <li><a href="https://mdphd.weill.cornell.edu/" class="institutional-link" target="_blank">MD PhD</a></li>
+        <li><a href="https://qatar-weill.cornell.edu/" class="institutional-link" target="_blank">Qatar</a></li>
+      </ul>
+    </div>
+    <div class="wcm-edu-home-panel-text__wrapper">
+      <div class="wcm-edu-home-panel-text__headline">
+        Training Future Healthcare and Scientific Leaders
+      </div>
+      <div class="wcm-edu-home-panel-text__teaser">
+        Weill Cornell Medicine educational programs are among the most selective in the nation, with unique international partnerships and comprehensive student services.
+      </div>
+      <div class="wcm-edu-home-panel-text__bottom-link">
+        <a href="https://weill.cornell.edu/education" class="institutional-link">See what we are doing in Education</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wcm-edu-home-panels__indicator"></div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-vuuid-9884f94b-f709-4b97-9263-a853f59141f7 pane-bundle-page-item">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    
+<div class="paragraphs-items paragraphs-items-field-component paragraphs-items-field-component-full paragraphs-items-full">
+          
+<div class="quick-text" style="">
+  <div class="container">
+          <div class="paragraph-section__title">
+        <span>Our Story</span>
+      </div>
+        <div class="quick-text__wrapper">
+              <p style="text-align: center;">Weill Cornell Medicine is committed to excellence in patient care, scientific discovery and the education of future physicians in New York City and around the world. Since 1898, our doctors and scientists have been engaged in world-class clinical care and cutting-edge research that connect patients to the latest treatment innovations and prevention strategies. Weill Cornell Medicine's powerful network of collaborators extends to its parent university Cornell University; to Qatar, where Weill Cornell Medicine-Qatar offers a Cornell University medical degree; and to programs in Tanzania, Haiti, Brazil, Austria and Turkey. Weill Cornell Medicine faculty provide exemplary patient care at NewYork-Presbyterian/Weill Cornell Medical Center, NewYork-Presbyterian Westchester Behavioral Health Center, NewYork-Presbyterian Lower Manhattan Hospital, NewYork-Presbyterian Queens and NewYork-Presbyterian Brooklyn Methodist Hospital. Weill Cornell Medicine is also affiliated with Houston Methodist.</p><p style="text-align: center;"><a href="https://weill.cornell.edu/our-story" aria-label="Read more details about Weill Cornell Medicine" class="institutional-link">Read Our Story</a></p>      </div>
+  </div>
+</div>
+  </div>
+</div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-vuuid-307ad834-2400-423b-a96b-60d8e3ddc358 pane-bundle-page-item">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    
+<div class="paragraphs-items paragraphs-items-field-component paragraphs-items-field-component-full paragraphs-items-full">
+          
+
+<div class="bar-callout">
+  <div class="container">
+    <div class="row is-flex no-gutters">
+      <div class="bar-panel bar-panel--image col-sm-6 col-sm-push-6">
+                <div class="bar-callout__image">
+                    <a tabindex="-1" href="https://jointhechange.weill.cornell.edu/" class="institutional-link" target="_blank">
+                              <img class="bar-callout-image" src="./Weill Cornell Medicine_files/wcm_badge_3d_rgb-foredu.png" alt="We&#39;re Changing Medicine campaign badge">                      </a>
+                  </div>
+              </div>
+    <div class="bar-panel bar-panel--title bar-panel--title--linked col-sm-6 col-sm-pull-6" data-location="https://jointhechange.weill.cornell.edu/">
+            <div class="bar-callout__text">
+                  <h4 class="bar-callout__title">
+                          <a href="https://jointhechange.weill.cornell.edu/" class="institutional-link" target="_blank">We’re Changing Medicine</a>
+                      </h4>
+                          <div class="bar-callout__description">
+            Weill Cornell Medicine's vision for the future means expanding and elevating our ability to care, discover and teach. Join us.          </div>
+              </div>
+          </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-vuuid-68e9475b-f4e2-4956-9a2c-02ef7c95a15e pane-bundle-page-item">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    
+<div class="paragraphs-items paragraphs-items-field-component paragraphs-items-field-component-full paragraphs-items-full">
+          
+
+<div class="bar-callout">
+  <div class="container">
+    <div class="row is-flex no-gutters">
+      <div class="bar-panel bar-panel--image col-sm-6 ">
+                <div class="bar-callout__image">
+                    <a tabindex="-1" href="https://weillcornell.org/news/how-to-schedule-your-covid-19-vaccine-appointment" class="institutional-link" target="_blank">
+                              <img class="bar-callout-image" src="./Weill Cornell Medicine_files/shutterstock_1814780726_0.jpg" alt="image of someone getting a vaccine shot">                      </a>
+                  </div>
+              </div>
+    <div class="bar-panel bar-panel--title bar-panel--title--linked col-sm-6 " data-location="https://weillcornell.org/news/how-to-schedule-your-covid-19-vaccine-appointment">
+            <div class="bar-callout__text">
+                  <h4 class="bar-callout__title">
+                          <a href="https://weillcornell.org/news/how-to-schedule-your-covid-19-vaccine-appointment" class="institutional-link" target="_blank">How To Schedule Your COVID-19 Vaccine Appointment</a>
+                      </h4>
+                          <div class="bar-callout__description">
+            Weill Cornell Medicine, in partnership with NewYork-Presbyterian, is currently vaccinating our eligible patients against COVID-19.          </div>
+              </div>
+          </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-vuuid-1dcfea99-2c2d-4488-9663-d172c098c819 pane-bundle-text">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+            <br><br>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-wcm-highlight-teasers">
+  
+      
+  
+  <div class="highlights" style="background-image: url(https://weill.cornell.edu/sites/default/files/focus_featured_images/diversity_banner_6-opt.jpg);">
+  <div class="highlights-mobile-nav">    
+    <div class="wayfinder wayfinder--highlights dropdown">
+      <button class="dropdown-toggle" type="button" id="highlights__nav--xs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Diversity        <span class="selection-arrow"></span>
+      </button>
+      <ul class="highlights__nav--sm dropdown-menu dropdown-menu-left" aria-labelledby="highlights__nav--xs">
+                <li><a aria-label="Toggle active highlight to Diversity" href="https://weill.cornell.edu/#" data-src="highlight-12" class="institutional-link">Diversity</a></li>
+                <li><a aria-label="Toggle active highlight to Innovation" href="https://weill.cornell.edu/#" data-src="highlight-6" class="institutional-link">Innovation</a></li>
+                <li><a aria-label="Toggle active highlight to International Affairs" href="https://weill.cornell.edu/#" data-src="highlight-14" class="institutional-link">International Affairs</a></li>
+                <li><a aria-label="Toggle active highlight to Mentorship" href="https://weill.cornell.edu/#" data-src="highlight-10" class="institutional-link">Mentorship</a></li>
+              </ul>
+    </div>
+  </div>
+  <ul class="highlights__nav">
+          <li><a aria-label="Toggle active highlight to Diversity" href="https://weill.cornell.edu/#" data-src="highlight-12" class="active institutional-link">Diversity</a></li>
+          <li><a aria-label="Toggle active highlight to Innovation" href="https://weill.cornell.edu/#" data-src="highlight-6" class="institutional-link">Innovation</a></li>
+          <li><a aria-label="Toggle active highlight to International Affairs" href="https://weill.cornell.edu/#" data-src="highlight-14" class="institutional-link">International Affairs</a></li>
+          <li><a aria-label="Toggle active highlight to Mentorship" href="https://weill.cornell.edu/#" data-src="highlight-10" class="institutional-link">Mentorship</a></li>
+      </ul>
+      <div class="highlights__teaser hover" data-id="highlight-12" data-bg="https://weill.cornell.edu/sites/default/files/focus_featured_images/diversity_banner_6-opt.jpg" data-location="/our-story/priority-highlights/diversity">
+      <div class="highlights__text">
+        <div class="highlights__title">Diversity</div>
+        <div class="highlights__desc">Diversity is one of Weill Cornell Medicine’s core values and is essential to achieving excellence in patient care, research and education.</div>
+      </div>
+    </div>
+      <div class="highlights__teaser hover" data-id="highlight-6" data-bg="https://weill.cornell.edu/sites/default/files/focus_featured_images/innovation_banner_4.jpg" data-location="/our-story/priority-highlights/innovation">
+      <div class="highlights__text">
+        <div class="highlights__title">Innovation</div>
+        <div class="highlights__desc">Entrepreneurship and innovation enable Weill Cornell Medicine to bring discoveries to patients faster.</div>
+      </div>
+    </div>
+      <div class="highlights__teaser hover" data-id="highlight-14" data-bg="https://weill.cornell.edu/sites/default/files/focus_featured_images/global_health_2-opt.jpg" data-location="/our-story/priority-highlights/international-affairs">
+      <div class="highlights__text">
+        <div class="highlights__title">International Affairs</div>
+        <div class="highlights__desc">Weill Cornell Medicine has a legacy of global engagement that is reflected in more than 20 global health programs spanning six continents.</div>
+      </div>
+    </div>
+      <div class="highlights__teaser hover" data-id="highlight-10" data-bg="https://weill.cornell.edu/sites/default/files/focus_featured_images/6.0_assistance_hero.jpg" data-location="/our-story/priority-highlights/mentorship">
+      <div class="highlights__text">
+        <div class="highlights__title">Mentorship</div>
+        <div class="highlights__desc">Weill Cornell Medicine is fostering a vibrant and dynamic culture of mentorship to nurture the next generation of healthcare leaders.</div>
+      </div>
+    </div>
+    <div class="highlights__indicator"></div>
+  <div class="mask"></div>
+</div>
+  
+  </div>
+<div class="panel-pane pane-wcm-home-news">
+  
+      
+  
+  <div class="container"><div class="paragraph-section__title"><span>Latest News</span></div><div class="home-news-feature">
+  <div class="home-news-feature__view-all">
+    <a href="https://news.weill.cornell.edu/news" class="institutional-link" target="_blank">See All Latest News Articles</a>
+  </div>
+  <div class="row is-flex">
+    <div class="col-sm-6">
+      <div class="home-news-feature__image">
+        <a tabindex="-1" href="https://news.weill.cornell.edu/news/2022/09/weill-cornell-medicine%E2%80%99s-clinical-and-translational-science-center-awarded-619-million" class="institutional-link" target="_blank">
+                    <img src="./Weill Cornell Medicine_files/julianne41_0_0.jpg" alt="a woman smiling for a portrait">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="home-news-feature__details">
+        <h3 class="home-news-feature__title">
+          <a href="https://news.weill.cornell.edu/news/2022/09/weill-cornell-medicine%E2%80%99s-clinical-and-translational-science-center-awarded-619-million" class="institutional-link" target="_blank">Weill Cornell Medicine’s Clinical and Translational Science Center Awarded $61.9 Million Grant from the National Institutes of Health</a>
+        </h3>
+        <div class="home-news-feature__teaser">Weill Cornell Medicine was awarded a $61.9 million grant from the National Institute of Health’s National Center for Advancing Translational Sciences (NCATS) to continue funding its&nbsp;Clinical and...</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row"><div class="home-news col-sm-4">
+  <div class="home-news__image">
+    <a tabindex="-1" href="https://news.weill.cornell.edu/news/2022/09/usf-health-weill-cornell-medicine-earn-inaugural-funding-in-nih%E2%80%99s-newly-launched" class="institutional-link" target="_blank">
+            <img src="./Weill Cornell Medicine_files/wcm-dr-olivier-elemento-0003edited_1.png" alt="a man in a suit posing for a picture">
+    </a>
+  </div>
+  <div class="home-news__details">
+    <div class="home-news__title">
+      <a href="https://news.weill.cornell.edu/news/2022/09/usf-health-weill-cornell-medicine-earn-inaugural-funding-in-nih%E2%80%99s-newly-launched" class="institutional-link" target="_blank">USF Health, Weill Cornell Medicine Earn Inaugural Funding in NIH’s Newly Launched Bridge2AI Initiative, will Create Artificial Intelligence Platform for Using Voice to Diagnose Disease</a>
+    </div>
+  </div>
+</div>
+<div class="home-news col-sm-4">
+  <div class="home-news__image">
+    <a tabindex="-1" href="https://news.weill.cornell.edu/news/2022/09/5-million-nih-center-grant-will-support-next-generation-tb-research" class="institutional-link" target="_blank">
+            <img src="./Weill Cornell Medicine_files/shutterstock_1045790221.jpg" alt="A scientist in a lab doing research. Credit: Shutterstock">
+    </a>
+  </div>
+  <div class="home-news__details">
+    <div class="home-news__title">
+      <a href="https://news.weill.cornell.edu/news/2022/09/5-million-nih-center-grant-will-support-next-generation-tb-research" class="institutional-link" target="_blank">$5 Million NIH Center Grant Will Support Next Generation TB Research</a>
+    </div>
+  </div>
+</div>
+<div class="home-news col-sm-4">
+  <div class="home-news__image">
+    <a tabindex="-1" href="https://news.weill.cornell.edu/news/2022/09/discovery-reveals-how-the-immune-system-tolerates-friendly-gut-bacteria" class="institutional-link" target="_blank">
+            <img src="./Weill Cornell Medicine_files/healthy_mouse_intestine_hrzt.jpg" alt="healthy mouse intestine">
+    </a>
+  </div>
+  <div class="home-news__details">
+    <div class="home-news__title">
+      <a href="https://news.weill.cornell.edu/news/2022/09/discovery-reveals-how-the-immune-system-tolerates-friendly-gut-bacteria" class="institutional-link" target="_blank"> Discovery Reveals How the Immune System Tolerates Friendly Gut Bacteria</a>
+    </div>
+  </div>
+</div>
+</div></div>
+  
+  </div>
+<div class="panel-pane pane-wcm-home-events">
+  
+      
+  
+  <div class="home-event-section"><div class="container"><div class="paragraph-section__title"><span>Upcoming Events</span></div><div class="home-events"><div class="home-events__view-all"><a href="https://events.weill.cornell.edu/" class="institutional-link" target="_blank">See All Weill Cornell Medicine Events</a></div><div class="row"><div class="home-event col-sm-3">
+  <div class="home-event__image">
+    <a tabindex="-1" href="http://events.weill.cornell.edu/event/2022_nyc_prostate_cancer_summit" class="institutional-link" target="_blank">
+      <img src="./Weill Cornell Medicine_files/354efb567c01bc732cbde5cbb70bff8ab23a591f.jpg" alt="2022 NYC Prostate Cancer Summit">
+    </a>
+  </div>
+  <div class="home-event__details">
+    <div class="home-event__date">September 18, 2022</div>
+    <div class="home-event__time">10:00am to 2:00pm</div>
+    <div class="home-event__title">
+      <a href="http://events.weill.cornell.edu/event/2022_nyc_prostate_cancer_summit" class="institutional-link" target="_blank">2022 NYC Prostate Cancer Summit</a>
+    </div>
+  </div>
+</div>
+<div class="home-event col-sm-3">
+  <div class="home-event__image">
+    <a tabindex="-1" href="http://events.weill.cornell.edu/event/databases_standardization_and_methods_to_learn_from_published_data_and_literature_in_cancer_genomics_and_metagenomics" class="institutional-link" target="_blank">
+      <img src="./Weill Cornell Medicine_files/33c1390e221b17cca87220cbed6adb0fd6afed01.jpg" alt="Databases, standardization, and methods to learn from published data and literature in cancer genomics and metagenomics">
+    </a>
+  </div>
+  <div class="home-event__details">
+    <div class="home-event__date">September 19, 2022</div>
+    <div class="home-event__time">12:00pm to 1:00pm</div>
+    <div class="home-event__title">
+      <a href="http://events.weill.cornell.edu/event/databases_standardization_and_methods_to_learn_from_published_data_and_literature_in_cancer_genomics_and_metagenomics" class="institutional-link" target="_blank">Databases, standardization, and methods to learn from published data and literature in cancer genomics and metagenomics</a>
+    </div>
+  </div>
+</div>
+<div class="home-event col-sm-3">
+  <div class="home-event__image">
+    <a tabindex="-1" href="http://events.weill.cornell.edu/event/cholesterol_and_gpcr_signaling_a_molecular_sensor_for_cholesterol_in_the_serotonin1a_receptor" class="institutional-link" target="_blank">
+      <img src="./Weill Cornell Medicine_files/78eaefc3b2de012e48037c1a50a1b7658eb096df.jpg" alt="Cholesterol and GPCR Signaling: A Molecular Sensor for Cholesterol in the Serotonin1A Receptor">
+    </a>
+  </div>
+  <div class="home-event__details">
+    <div class="home-event__date">September 19, 2022</div>
+    <div class="home-event__time">4:00pm to 7:00pm</div>
+    <div class="home-event__title">
+      <a href="http://events.weill.cornell.edu/event/cholesterol_and_gpcr_signaling_a_molecular_sensor_for_cholesterol_in_the_serotonin1a_receptor" class="institutional-link" target="_blank">Cholesterol and GPCR Signaling: A Molecular Sensor for Cholesterol in the Serotonin1A Receptor</a>
+    </div>
+  </div>
+</div>
+<div class="home-event col-sm-3">
+  <div class="home-event__image">
+    <a tabindex="-1" href="http://events.weill.cornell.edu/event/free_narcan_training_with_jonathan_avery_md" class="institutional-link" target="_blank">
+      <img src="./Weill Cornell Medicine_files/ee150a3de95c6ec7ceb392ef1dcc6fc55fe07c42.jpg" alt="Narcan Training">
+    </a>
+  </div>
+  <div class="home-event__details">
+    <div class="home-event__date">September 19, 2022</div>
+    <div class="home-event__time">5:00pm to 7:00pm</div>
+    <div class="home-event__title">
+      <a href="http://events.weill.cornell.edu/event/free_narcan_training_with_jonathan_avery_md" class="institutional-link" target="_blank">Narcan Training</a>
+    </div>
+  </div>
+</div>
+</div></div></div></div>
+  
+  </div>
+<div class="panel-pane pane-wcm-faculty-callouts">
+  
+      
+  
+  <div class="faculty-callout-section">
+  <div class="container">
+      <div class="faculty-callout__wrap">
+        <div class="paragraph-section__title">
+          <span>Faculty Honors &amp; Awards</span>
+        </div>
+        <ul class="faculty-callouts">
+          <li>
+  <div class="faculty-callout">
+    <div aria-controls="faculty-callout__details_id_831" aria-label="Open Philip E. Stieg, Ph.D., M.D. panel" aria-pressed="false" role="button" data-target=".faculty-callout__details" data-id-label="Philip E. Stieg, Ph.D., M.D." tabindex="0" class="faculty-callout__summary" style="height: 535px;">
+      <div class="faculty-callout__image">
+                <img class="leadership-bio-headshot" src="./Weill Cornell Medicine_files/pes2008_1.jpg" alt="a man in a suit posing for a picture">        </div>
+      <div class="faculty-callout__identity">
+        <div class="faculty-callout__name">Philip E. Stieg, Ph.D., M.D.</div>
+        <div class="faculty-callout__title">        Chairman of Neurological Surgery and the Margaret and Robert J. Hariri Professor of Neurological Surgery  </div>
+      </div>
+    </div>
+    <div id="faculty-callout__details_id_831" class="faculty-callout__details" hidden="">
+      <div class="faculty-callout__text">
+        <div class="faculty-callout__description">        <p><span><span>Dr. Philip</span><span>&nbsp;Stieg</span></span><span><span>, chairman of Neurological Surgery and the Margaret and Robert J. Hariri Professor of Neurological Surgery, was named by Albany Medical College as the Distinguished Alumnus of the college for 2022. This marked the first time the college honored&nbsp;</span><span>one</span><span>&nbsp;of</span><span>&nbsp;its Ph.D. graduates with this award.&nbsp;</span></span><span>&nbsp;</span></p>  </div>
+      </div>
+      <div class="faculty-callout__profile-links">
+          <a aria-label="Visit research profile for Philip E. Stieg, Ph.D., M.D." href="https://vivo.weill.cornell.edu/display/cwid-pes2008" class="institutional-link" target="_blank">Research Profile</a>
+          <a aria-label="Visit clinical profile for Philip E. Stieg, Ph.D., M.D." href="https://weillcornell.org/pstieg" class="institutional-link" target="_blank">Clinical Profile</a>
+        </div>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="faculty-callout">
+    <div aria-controls="faculty-callout__details_id_830" aria-label="Open Fabrizio Michelassi, M.D. panel" aria-pressed="false" role="button" data-target=".faculty-callout__details" data-id-label="Fabrizio Michelassi, M.D." tabindex="0" class="faculty-callout__summary" style="height: 535px;">
+      <div class="faculty-callout__image">
+                <img class="leadership-bio-headshot" src="./Weill Cornell Medicine_files/fam2006-1.jpg" alt="a man in a suit posing for a picture">        </div>
+      <div class="faculty-callout__identity">
+        <div class="faculty-callout__name">Fabrizio Michelassi, M.D.</div>
+        <div class="faculty-callout__title">        Chairman of the Department of Surgery and the Lewis Atterbury Stimson Professor of Surgery  </div>
+      </div>
+    </div>
+    <div id="faculty-callout__details_id_830" class="faculty-callout__details" hidden="">
+      <div class="faculty-callout__text">
+        <div class="faculty-callout__description">        <p><span><span>Dr. Fabrizio&nbsp;</span><span>Michelassi</span></span><span>, chairman of the Department of Surgery and the Lewis Atterbury Stimson Professor of Surgery,</span><span>&nbsp;</span><span><span>was awarded the Founders Medal at the 63rd Annual Meeting of the Society for Surgery of the Alimentary Tract in May 2022.&nbsp;</span><span>The</span><span>&nbsp;society’s</span><span>&nbsp;mission is to lead in advancing the science and practice of gastrointestinal surgery.</span></span><span>&nbsp;</span></p>  </div>
+      </div>
+      <div class="faculty-callout__profile-links">
+          <a aria-label="Visit research profile for Fabrizio Michelassi, M.D." href="https://vivo.weill.cornell.edu/display/cwid-fam2006" class="institutional-link" target="_blank">Research Profile</a>
+          <a aria-label="Visit clinical profile for Fabrizio Michelassi, M.D." href="https://weillcornell.org/michelassi" class="institutional-link" target="_blank">Clinical Profile</a>
+        </div>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="faculty-callout">
+    <div aria-controls="faculty-callout__details_id_829" aria-label="Open Manikkam Suthanthiran, M.D. panel" aria-pressed="false" role="button" data-target=".faculty-callout__details" data-id-label="Manikkam Suthanthiran, M.D." tabindex="0" class="faculty-callout__summary" style="height: 535px;">
+      <div class="faculty-callout__image">
+                <img class="leadership-bio-headshot" src="./Weill Cornell Medicine_files/msuthan.jpg" alt="a man in a suit posing for a picture">        </div>
+      <div class="faculty-callout__identity">
+        <div class="faculty-callout__name">Manikkam Suthanthiran, M.D.</div>
+        <div class="faculty-callout__title">        Chief of the Division of Nephrology and Hypertension and the Stanton Griffis Distinguished Professor of Medicine  </div>
+      </div>
+    </div>
+    <div id="faculty-callout__details_id_829" class="faculty-callout__details" hidden="">
+      <div class="faculty-callout__text">
+        <div class="faculty-callout__description">        <p><span>Dr. Manikkam Suthanthiran,</span><span>&nbsp;chief of the Division of Nephrology and Hypertension and the Stanton Griffis Distinguished Professor of Medicine, received The Medawar Prize from The Transplantation Society for his outstanding contributions to the field of transplantation. It is the highest honor bestowed by the International Transplantation Society. Dr. Suthanthiran will be presented with the award at the TTS President's Plenary Session on Sept. 14 in Buenos Aires, Argentina.</span><span>&nbsp;</span></p>  </div>
+      </div>
+      <div class="faculty-callout__profile-links">
+          <a aria-label="Visit research profile for Manikkam Suthanthiran, M.D." href="https://vivo.weill.cornell.edu/display/cwid-msuthan" class="institutional-link" target="_blank">Research Profile</a>
+          <a aria-label="Visit clinical profile for Manikkam Suthanthiran, M.D." href="https://weillcornell.org/msuthanthiran" class="institutional-link" target="_blank">Clinical Profile</a>
+        </div>
+    </div>
+  </div>
+</li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-dean-messages-home-latest-message">
+  
+      
+  
+  <div class="view view-dean-messages view-id-dean_messages view-display-id-home_latest_message view-dom-id-4657e4a4beb432934b581fb474cba7bb">
+            <div class="view-header">
+      <div class="our-story-contact"><div class="container"><div class="paragraph-section__title"><span>Dean's Messages</span></div></div></div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="deans-message">
+  <div class="row is-flex">
+    <div class="col-sm-3">
+      <div class="deans-message__image">
+        <img src="./Weill Cornell Medicine_files/aug_choi.jpg" alt="Dean Augustine Choi">
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <div class="deans-message__text">
+      <div class="deans-message__view-all">
+        <a href="https://weill.cornell.edu/our-story/deans-messages" class="institutional-link">View all Dean's Messages</a>
+      </div>
+      <div class="deans-message__date"><span class="date-display-single">May 18, 2022</span></div>
+      <div class="deans-message__title">
+        <a href="https://weill.cornell.edu/our-story/deans-messages/may-2022-deans-letter" class="institutional-link">May 2022 Dean's Letter</a>
+      </div>
+      <div class="deans-message__teaser"><p>This is an extraordinary time within academic medicine.&nbsp;&nbsp;There are so many opportunities to strengthen our healthcare systems, address inequities in care, and promote the health of patients and populations. &nbsp;</p></div>
+      </div>
+    </div>
+  </div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-current-46 pane-bundle-text">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+            <div class="our-story-contact">
+  <div class="container">
+    <div class="paragraph-section__title">
+      <span>Contact Us</span>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="embed">
+          <iframe src="./Weill Cornell Medicine_files/embed.html" width="800" height="400" title="Weill Cornell Medicine Campus Map" style="border:0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3><a href="https://weill.cornell.edu/our-story/maps-and-directions" class="institutional-link">Maps and Directions</a></h3>
+        <p>1300 York Avenue<br>
+        New York, NY 10065<br>
+        Phone 212-746-5454<br>
+        <a href="https://weill.cornell.edu/our-story/contact-weill-cornell-medicine" class="institutional-link">Contact Us</a></p>
+      </div>
+    </div>
+  </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-vuuid-99934856-c442-4e7f-a606-c5df2443b5e1 pane-bundle-page-item">
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    
+<div class="paragraphs-items paragraphs-items-field-component paragraphs-items-field-component-full paragraphs-items-full">
+          <div class="container">
+<div class="icon-callout">
+  <div class="row no-gutters">
+    
+    <div class="icon-callout__link col-sm-4">
+      <div class="icon-callout__icon">
+        <a href="https://give.weill.cornell.edu/" class="institutional-link" target="_blank">
+          <span class="icon-callout__detail">
+            <svg class="cta-icon cta-icon-give"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/wcmc/themes/wcmc_bootstrap/images/cta_icons/symbol-defs.svg#cta-icon-give"></use></svg>
+            <span>Giving to WCM</span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+        <div class="icon-callout__link col-sm-4">
+      <div class="icon-callout__icon">
+        <a href="https://alumni.weill.cornell.edu/" class="institutional-link" target="_blank">
+          <span class="icon-callout__detail">
+            <svg class="cta-icon cta-icon-education"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/wcmc/themes/wcmc_bootstrap/images/cta_icons/symbol-defs.svg#cta-icon-education"></use></svg>
+            <span>Alumni</span>
+          </span>
+        </a>
+      </div>
+    </div>
+    
+        <div class="icon-callout__link col-sm-4">
+      <div class="icon-callout__icon">
+        <a href="https://careers.weill.cornell.edu/" class="institutional-link" target="_blank">
+          <span class="icon-callout__detail">
+            <svg class="cta-icon cta-icon-chart"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/wcmc/themes/wcmc_bootstrap/images/cta_icons/symbol-defs.svg#cta-icon-chart"></use></svg>
+            <span>Careers</span>
+          </span>
+        </a>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+  
+  </div>
+      </div>
+    </div>
+  </div>
+</div>  </div>
+
+  <footer role="contentinfo" class="page-footer">
+
+  <div class="footer-contact">
+    <div class="container">
+      <div class="footer-contact__map-link"><a href="https://weill.cornell.edu/our-story/maps-and-directions">Location</a></div>
+      <div class="footer-contact__contact-us"><a href="https://weill.cornell.edu/our-story/contact-weill-cornell-medicine">Contact Us</a></div>
+      <div class="footer-contact__site-name"><a href="https://weill.cornell.edu/">Weill Cornell Medicine</a></div>
+
+      <ul class="footer-contact__social-links">
+                  <li class="footer-contact__twitter"><a href="https://twitter.com/weillcornell" target="_blank" class="external-link">Twitter</a></li>
+                          <li class="footer-contact__facebook"><a href="https://www.facebook.com/WeillCornellMedicine" target="_blank" class="external-link">Facebook</a></li>
+                          <li class="footer-contact__linkedin"><a href="https://www.linkedin.com/company/weill-cornell-medicine/" target="_blank" class="external-link">LinkedIn</a></li>
+                          <li class="footer-contact__instagram"><a href="https://www.instagram.com/weillcornell/" target="_blank" class="external-link">Instagram</a></li>
+                          <li class="footer-contact__youtube"><a href="https://www.youtube.com/user/WCMCnews" target="_blank" class="external-link">YouTube</a></li>
+                          <li class="footer-contact__vimeo"><a href="https://vimeo.com/weillcornell" target="_blank" class="external-link">Vimeo</a></li>
+              </ul>
+    </div>
+  </div>
+
+    <div class="footer-site">
+      <div class="container">
+        <div class="footer-site-info">
+          <div class="footer-address">
+                        <div class="footer-address__address">
+              1300 York Avenue<br>
+              New York, NY 10065<br>
+                              Phone: (212) 746-5454<br>
+                                          <a class="btn btn-primary btn--minor" href="https://weill.cornell.edu/our-story/contact-weill-cornell-medicine">Contact Us</a>
+            </div>
+          </div>
+
+                      <nav class="footer-nav" aria-label="Footer">
+              
+  <div id="block-menu-block-1" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix"><li class="first menu-mlid-1843 level-1"><span aria-controls="sub-menu-1843" aria-label="Expand About Us menu" aria-expanded="false" data-id-label="About Us" class="footer-menu__section" tabindex="-1">About Us<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1843" class="menu"><li class="first menu-mlid-1845 level-2"><a href="https://weill.cornell.edu/our-story" title="">Our Story</a></li>
+<li class="menu-mlid-2056 level-2"><a href="https://weill.cornell.edu/our-story/affiliations" title="">Affiliations</a></li>
+<li class="last menu-mlid-1846 level-2"><a href="https://news.weill.cornell.edu/" title="" target="_blank">News</a></li>
+</ul></li>
+<li class="menu-mlid-1847 level-1"><span aria-controls="sub-menu-1847" aria-label="Expand Care menu" aria-expanded="false" data-id-label="Care" class="footer-menu__section" tabindex="-1">Care<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1847" class="menu"><li class="first menu-mlid-1848 level-2"><a href="https://weillcornell.org/find-a-physician" title="" target="_blank">Find a Physician</a></li>
+<li class="menu-mlid-1849 level-2"><a href="https://weillcornell.org/services" title="" target="_blank">Clinical Services</a></li>
+<li class="last menu-mlid-1850 level-2"><a href="https://weillcornell.org/weill-cornell-connect" title="" target="_blank">Patient Portal</a></li>
+</ul></li>
+<li class="menu-mlid-1852 level-1"><span aria-controls="sub-menu-1852" aria-label="Expand Discover menu" aria-expanded="false" data-id-label="Discover" class="footer-menu__section" tabindex="-1">Discover<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1852" class="menu"><li class="first menu-mlid-1853 level-2"><a href="https://research.weill.cornell.edu/" title="Visit the main WCM Research site" target="_blank">Research</a></li>
+<li class="last menu-mlid-1947 level-2"><a href="https://jcto.weill.cornell.edu/" title="" target="_blank">Clinical Trials</a></li>
+</ul></li>
+<li class="menu-mlid-1949 level-1"><span aria-controls="sub-menu-1949" aria-label="Expand Teach menu" aria-expanded="false" data-id-label="Teach" class="footer-menu__section" tabindex="-1">Teach<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1949" class="menu"><li class="first menu-mlid-1950 level-2"><a href="https://medicaleducation.weill.cornell.edu/" title="" target="_blank">MD Education</a></li>
+<li class="menu-mlid-1951 level-2"><a href="https://gradschool.weill.cornell.edu/" title="" target="_blank">Graduate School</a></li>
+<li class="menu-mlid-1952 level-2"><a href="https://mdphd.weill.cornell.edu/" title="" target="_blank">MD-PhD</a></li>
+<li class="last menu-mlid-1953 level-2"><a href="https://qatar-weill.cornell.edu/" title="" target="_blank">Qatar</a></li>
+</ul></li>
+<li class="menu-mlid-1955 level-1"><span aria-controls="sub-menu-1955" aria-label="Expand Connect menu" aria-expanded="false" data-id-label="Connect" class="footer-menu__section" tabindex="-1">Connect<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1955" class="menu"><li class="first menu-mlid-1956 level-2"><a href="https://alumni.weill.cornell.edu/" title="" target="_blank">Alumni</a></li>
+<li class="menu-mlid-1957 level-2"><a href="https://events.weill.cornell.edu/" title="" target="_blank">Events</a></li>
+<li class="menu-mlid-1958 level-2"><a href="https://give.weill.cornell.edu/" title="" target="_blank">Giving</a></li>
+<li class="last menu-mlid-1959 level-2"><a href="https://careers.weill.cornell.edu/" title="" target="_blank">Careers</a></li>
+</ul></li>
+<li class="last menu-mlid-1960 level-1"><span aria-controls="sub-menu-1960" aria-label="Expand Community menu" aria-expanded="false" data-id-label="Community" class="footer-menu__section" tabindex="-1">Community<span class="footer-menu__toggle"></span></span><ul id="sub-menu-1960" class="menu"><li class="first menu-mlid-1961 level-2"><a href="https://emergency.weill.cornell.edu/" title="" target="_blank">Campus Alerts</a></li>
+<li class="last menu-mlid-1962 level-2"><a href="https://wcmcentral.weill.cornell.edu/" title="" target="_blank">WCM Central</a></li>
+</ul></li>
+</ul></div>
+  </div>
+</div>
+            </nav>
+                  </div>
+
+        <div class="footer-patient-care">
+          Are you looking for a physician? Visit the Weill Cornell Medicine <a aria-label="Go to the WCM Patient Care website" href="https://weillcornell.org/" target="_blank">Patient Care</a> Website.
+        </div>
+
+                  <div class="footer-statement">
+            <a href="https://weill.cornell.edu/">Weill Cornell Medicine&nbsp;&nbsp;&nbsp; Care. Discover. Teach.<sup>®</sup></a> We are committed to providing exemplary and individualized clinical care, making groundbreaking biomedical discoveries, and educating the next generation of healthcare leaders.
+          </div>
+        
+        <div class="footer-partnership">
+          <a href="https://weill.cornell.edu/" class="footer-partnership__logo footer-partnership__wcmed">Weill Cornell Medicine</a>
+          <span class="footer-partnership__decorator">•</span>
+          <a href="https://www.cornell.edu/" class="footer-partnership__logo footer-partnership__cornell external-link" target="_blank">Cornell University</a>
+          <span class="footer-partnership__decorator">•</span>
+          <a href="https://www.nyp.org/" class="footer-partnership__logo footer-partnership__nypres external-link" target="_blank">NewYork-Presbyterian</a>
+          <span class="footer-partnership__decorator">•</span>
+          <a href="https://www.houstonmethodist.org/" class="footer-partnership__logo footer-partnership__methodist external-link" target="_blank">Houston Methodist</a>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-links__copyright">© Weill Cornell Medicine.</div>
+          <nav class="footer-links__menu navigation" aria-label="Global Footer">
+            <ul>
+              <li><a href="https://weill.cornell.edu/privacy-policy" title="WCM Patient Privacy Policy">Privacy Policy</a></li>
+              <li><a href="https://weill.cornell.edu/terms-of-use" title="WCM Web Terms of Use">Terms of Use</a></li>
+              <li><a href="https://weill.cornell.edu/social-media-policy" title="WCM Social Media Policy (External Users)">Social Media Policy</a></li>
+              <li><a href="https://weill.cornell.edu/accessibility" title="Web Accessibility Assistance">Web Accessibility Assistance</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div id="slide-nav-overlay"></div>
+</div>
+    <script src="./Weill Cornell Medicine_files/js_Y2LxC1dyhyOaafX8fC5m_rG-6w0-GUmYnAdhvdtlNRc.js"></script>
+<script src="./Weill Cornell Medicine_files/js_we9jJKz3HpW1QA2QYa23b-VaVi7Flcwq8GFfRRLMZss.js"></script>
+<script defer="defer" src="./Weill Cornell Medicine_files/siteanalyze_26716.js"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"94755092d6","applicationID":"139756650","transactionName":"ZAEAYUJUWkIDU0YLWl1LI1ZEXFtfTUBTBVBsCQNbUVJRQz1AUwVQbAEaUFNAQFQ=","queueTime":0,"applicationTime":527,"atts":"SEYDFwpOSUw=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html>
