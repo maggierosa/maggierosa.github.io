@@ -2,7 +2,7 @@
 
 ## About Me ##
 
-Hi! My name is Margarida Rosa, you can call me Maggie :) and my preferred pronouns are she/her. 
+Hi! My name is Margarida Rosa, but you can call me Maggie :) and my preferred pronouns are she/her. 
 I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am in NYC pursuing a Ph.D. at [Weill Cornell Medicine](http://www.weill.cornell.edu) under the supervision of [Prof. George Khelashvili](https://www.physiology.med.cornell.edu/people/george-khelashvili-ph-d/).
 
 
