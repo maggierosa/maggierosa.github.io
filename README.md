@@ -1,8 +1,7 @@
-# maggierosa.github.io
+# Margarida Rosa (maarg·eriydah r·oh·z·uh)
+
 
 About Me 
-
-Margarida Rosa (maarg·eriydah r·oh·z·uh)
 
 I am a self-motivated Ph.D student at Weill Cornell Medicine 
 
