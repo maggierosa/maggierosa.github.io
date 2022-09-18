@@ -4,7 +4,7 @@
 ## About Me 
 
 Hi! My name is Margarida Rosa, you can call me Maggie and my preferred pronouns are she/her. 
-I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am currently in NYC pursuing a Ph.D. at [Weill Cornell Medicine] (WeillCornellMedicine.md)
+I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am currently in NYC pursuing a Ph.D. at [Weill Cornell Medicine!](WeillCornellMedicine.md)
 
 under the supervision of 
 
