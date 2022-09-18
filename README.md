@@ -31,7 +31,7 @@ I have always wondered how drugs interact with our bodies to produce the desired
 - **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. 
 
 ## Reach Me At ##
-**I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:**
+I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:
 
 [Email](Email.md)
 
