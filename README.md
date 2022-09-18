@@ -30,9 +30,11 @@ I have always wondered how drugs interact with our bodies to produce the desired
 - **Valedictorian of 2016 Class** 
 - **National Honor Society** member of the Vasco da Gama Chapter NHS, where *membership is based on scholarship, leadership, service and character"*. 
 
-## Contact Details 
-#### I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:#### 
+## Reach Me 
+#### I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:###
+
 [Email](Email.md)
+
 [LinkedIn](LinkedIn.html)
 
 
