@@ -3,9 +3,13 @@
 
 ## About Me 
 
-I am a self-motivated Ph.D. student at [Weill Cornell Medicine!](Weill Cornell Medicine.html) under the supervision of [(https://physiology.med.cornell.edu/people/george-khelashvili-ph-d/)](another-page.md). 
+Hi! My name is Margarida Rosa, you can call me Maggie and my preferred pronouns are she/her. 
+I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am currently in NYC pursuing a Ph.D. at [Weill Cornell Medicine] (WeillCornellMedicine.md)
 
-![IMG_6628](https://user-images.githubusercontent.com/99993156/190913294-090eb342-db33-4503-86c5-30ca340f4a50.jpg)
+under the supervision of 
+
+<img width="354" alt="Screenshot 2022-09-18 at 11 11 49" src="https://user-images.githubusercontent.com/99993156/190914287-2208d9af-27f7-45b5-ae61-b810c7462ee9.png">
+
 
 
 ## Research Interests 
