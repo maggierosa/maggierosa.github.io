@@ -39,3 +39,4 @@ I am passionate about applying my knowledge and experience into real-life contex
 
 
 
+
