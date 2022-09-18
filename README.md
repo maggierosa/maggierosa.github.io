@@ -3,7 +3,7 @@
 ## About Me ##
 
 Hi! My name is Margarida Rosa, you can call me Maggie :) and my preferred pronouns are she/her. 
-I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am in NYC pursuing a Ph.D. at [Weill Cornell Medicine](Weill Cornell.html)(https://www.weill.cornell.edu) under the supervision of [Prof. George Khelashvili](https://www.physiology.med.cornell.edu/people/george-khelashvili-ph-d).
+I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am in NYC pursuing a Ph.D. at [Weill Cornell Medicine](Weill Cornell.html)(http://www.weill.cornell.edu) under the supervision of [Prof. George Khelashvili](http://www.physiology.med.cornell.edu/people/george-khelashvili-ph-d).
 
 
 <img width="200" alt="Screenshot 2022-09-18 at 11 11 49" src="https://user-images.githubusercontent.com/99993156/190914287-2208d9af-27f7-45b5-ae61-b810c7462ee9.png">
@@ -35,7 +35,7 @@ I am passionate about applying my knowledge and experience into real-life contex
 
 [Email](Email.md)
 
-[LinkedIn](LinkedIn.html)
+[LinkedIn](LinkedIn.html)(http://www.linkedin.com/in/mmargaridarosa/)
 
 
 
