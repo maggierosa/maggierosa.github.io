@@ -1,3 +1,5 @@
+# Margarida Rosa (maarg·eriydah r·oh·z·uh) #
+
 ## About Me ##
 
 Hi! My name is Margarida Rosa, you can call me Maggie :) and my preferred pronouns are she/her. 
