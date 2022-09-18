@@ -22,11 +22,18 @@ I have always wondered how drugs interact with our bodies to produce the desired
   [Paper](paper.html)
 
 ## Awards 
-
-
-
-## Activities and Volunteering 
-
+- **1st Place for Best First-Year Poster Presentation** titled: *“Lipid Scrambling Mechanisms of β-1 Adrenergic Receptor (β-1AR) Revealed by Computational Experiments”* under Prof. George Khelashvili’s mentorship and issued at the Vincent Du Vigneaud Symposium. 
+- **Honors for Master's Thesis** titled *“Structural modelling of the SARS-CoV-2 RNA-dependent RNA-polymerase (RdRp) enzyme, an essential protein for viral replication”* under Prof. Shozeb Haider's mentorship and issued by University College London.   
+- **President’s Education Award issued by President Barack Obama** for recognition of *outstanding academic excellence*.
+- **Oxford Chemistry Award** issued by Oxford University during summer course. 
+- **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. 
+- **Valedictorian of 2016 Class** 
+- **National Honor Society** member of the Vasco da Gama Chapter NHS, where *membership is based on scholarship, leadership, service and character"*. 
 
 ## Contact Details 
-#### I am passionate about applying my knowledge and experience into a real-life contexts, and pursue a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at: 
+#### I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:#### 
+[Email](Email.md)
+[LinkedIn](LinkedIn.html)
+
+
+
