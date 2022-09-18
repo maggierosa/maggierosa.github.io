@@ -3,7 +3,7 @@
 
 ## About Me 
 
-I am a self-motivated Ph.D. student at [Weill Cornell Medicine.md)] under the supervision of [(https://physiology.med.cornell.edu/people/george-khelashvili-ph-d/)](another-page.md). 
+I am a self-motivated Ph.D. student at [Weill Cornell Medicine!](Weill Cornell Medicine.html) under the supervision of [(https://physiology.med.cornell.edu/people/george-khelashvili-ph-d/)](another-page.md). 
 
 ![IMG_6628](https://user-images.githubusercontent.com/99993156/190913294-090eb342-db33-4503-86c5-30ca340f4a50.jpg)
 
