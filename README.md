@@ -26,7 +26,7 @@ I have always wondered how drugs interact with our bodies to produce the desired
 - **Oxford Chemistry Award** issued by Oxford University during summer course. 
 - **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. 
 - **Valedictorian of 2016 Class** 
-- **National Honor Society** member of the Vasco da Gama Chapter NHS, where *membership is based on scholarship, leadership, service and character"*. 
+- **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. 
 
 ## Reach Me At ##
 **I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:**
