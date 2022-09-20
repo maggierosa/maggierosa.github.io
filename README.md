@@ -32,12 +32,12 @@ I have always wondered how drugs interact with our bodies to produce the desired
 - **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. 
 
 ## References ##
-[Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf) 
-[QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf)
-[QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf)
+[Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf);  
+[QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf);  
+[QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf). 
 
-## CV ##
 [CV](https://github.com/maggierosa/maggierosa.github.io/files/9607168/MMRosa_CV_v5.pdf)
+
 
 I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:
 
