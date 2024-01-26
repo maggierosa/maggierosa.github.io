@@ -22,21 +22,28 @@ I have always wondered how drugs interact with our bodies to produce the desired
   *J. Chem. Inf. Model. 2021* 
   [Paper](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
 
-## Awards ##
+## Selected Awards ##
+- **Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
+- **Weill Cornell Graduate School Merit Fellowship recipient**, awarded to top 13% of applicants in recognition of exemplary academic and research achievements as a trainee. (2023-2024)
+- **3rd Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Retreat (Nov. 2022)
+- **Finalist at 3-Minute Thesis Competition (3MT)** at Weill Cornell Medicine (Dec. 2022).
+- **Nominated candidate** for the internal competition of the Google Ph.D. Fellowship at Weill Cornell Medicine (Oct. 2022)
 - **1st Place for Best First-Year Poster Presentation** titled: *“Lipid Scrambling Mechanisms of β-1 Adrenergic Receptor (β-1AR) Revealed by Computational Experiments”* under Prof. George Khelashvili’s mentorship and issued at the Vincent Du Vigneaud Symposium. 
-- **Honors for Master's Thesis** titled *“Structural modelling of the SARS-CoV-2 RNA-dependent RNA-polymerase (RdRp) enzyme, an essential protein for viral replication”* under Prof. Shozeb Haider's mentorship and issued by University College London.   
-- **President’s Education Award issued by President Barack Obama** for recognition of *outstanding academic excellence*.
-- **Oxford Chemistry Award** issued by Oxford University during summer course. 
-- **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. 
-- **Valedictorian of 2016 Class** 
-- **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. 
+- **Continuous Learner Achievement** issued by Roche Pharmaceutical Company (Jun. 2021)
+- **Honors for Master's Thesis** titled *“Structural modelling of the SARS-CoV-2 RNA-dependent RNA-polymerase (RdRp) enzyme, an essential protein for viral replication”* under Prof. Shozeb Haider's mentorship and issued by University College London (Dec. 2020)   
+- **Honors for Master’s Degree** issued by University College London (Dec. 2020)
+- **Honors for Biochemistry Degree** issued by Queen Mary University of London (Jul. 2019)
+- **President’s Education Award issued by President Barack Obama** for recognition of *outstanding academic excellence*. (Jul. 2016)
+- **Oxford Chemistry Award** issued by Oxford University during summer course. (Jul. 2016)
+- **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. Jul. 2016)
+- **Valedictorian of 2016 Class** (Jul. 2016)
+- **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. (Jul. 2016)
 
 ## References ##
 [Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf);  
 [QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf);  
 [QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf). 
 
-[CV](https://github.com/maggierosa/maggierosa.github.io/files/9607168/MMRosa_CV_v5.pdf)
 
 
 I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:
