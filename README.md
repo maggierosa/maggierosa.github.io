@@ -20,8 +20,10 @@ I have always wondered how drugs interact with our bodies to produce the desired
 ### Weill Cornell Medicine – Cornell University, New York, NY (2021-Present) ### 
 - Ph.D., Physiology, Biophysics & Systems Biology (PBSB) program
 - Mentored by Dr. George Khelashvili and Dr. Harel Weinstein 
+
 ### University College London, London, UK (2019-2020) ### 
 - M.Sc., Drug Discovery and Development awarded First Class-Honors (4.0 GPA)
+
 ### Queen Mary University of London, London, UK (2016-2019) ### 
 - B.Sc., Biochemistry awarded First Class Honors (4.0 GPA) 
 
