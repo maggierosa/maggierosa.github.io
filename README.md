@@ -15,12 +15,30 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 
 I have always wondered how drugs interact with our bodies to produce the desired effect, and how technology can be used to accelerate drug development and delivery. In the pursuit of answers, I earned a B.Sc.(Hons) in Biochemistry from [Queen Mary University of London](https://www.qmul.ac.uk), where I was fascinated in studying drug-receptor interactions. I decided to further pursue my interests by completing a M.Sc. in Drug Discovery and Development at [University College London](https://www.ucl.ac.uk/), where my passion for computational drug-design was ignited. During my Master’s thesis I investigated the structural modeling of SARS-CoV-2 main protease using Molecular Dynamics (MD) simulations, where I was thrilled to have my work published contributing to the scientific field during an emerging pandemic. My curiosity for innovative technologies fueled my desire to complete a 6-month internship at [Roche](https://www.roche.com), where I used unsupervised ML algorithms for drug substance development. To further deepen my knowledge on how technology can be used to accelerate drug development, for my graduate studies, I am pursuing computational biophysics research. In the [Khelashvili lab](https://www.physiology.med.cornell.edu/faculty/khelashvili/lab/research.html), we focus on investigating the function-related molecular mechanisms underlying various biological processes vital to human health using advanced quantitative computational approaches carried out on high-performance computing clusters. 
 
+## Education ##
+
+### Weill Cornell Medicine – Cornell University, New York, NY (2021-Present) ### 
+- Ph.D., Physiology, Biophysics & Systems Biology (PBSB) program
+- Mentored by Dr. George Khelashvili and Dr. Harel Weinstein 
+### University College London, London, UK (2019-2020) ### 
+- M.Sc., Drug Discovery and Development awarded First Class-Honors (4.0 GPA)
+### Queen Mary University of London, London, UK (2016-2019) ### 
+- B.Sc., Biochemistry awarded First Class Honors (4.0 GPA) 
+
 ## Publications ##
 
 - **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
   Eunice Cho, **Margarida Rosa**, Ruhi Anjum, Saman Mehmood, Mariya Soban, Moniza Mujtaba, Khair Bux, Syed T. Moin, Mohammad Tanweer, Sarath Dantu,   Alessandro   Pandini, Junqi Yin, Heng Ma, Arvind Ramanathan, Barira Islam, Antonia S. J. S. Mey, Debsindhu Bhowmik, and Shozeb Haider
   *J. Chem. Inf. Model. 2021* 
   [Paper](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
+- **‘Automating and Optimizing Collective Variable Design with Gradient Descent-based Harmonic Linear Discriminant Analysis for Conformational Transitions of MFSD2A’**
+  Oh, Myongin, **Margarida Rosa**, Hengyi Xie, George Khelashvili. (manuscript under review) 
+
+## Poster Presentations ##
+- “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Biophysics Society Meeting **(Abstract selected for Travel Award)** Feb. 2024.
+- “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Weill Cornell Medicine PBSB Departmental Retreat, Nov. 2023.
+- “Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments” at Weill Cornell Medicine PBSB Departmental Retreat, Nov. 2022.
+- “Lipid Scrambling Mechanisms of β-1 Adrenergic Receptor (β-1AR) Revealed by Computational Experiments” at Vincent Du Vigneaud Symposium, Apr. 2022. 
 
 ## Selected Awards ##
 - **Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
