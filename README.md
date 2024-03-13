@@ -19,8 +19,9 @@ I have always wondered how drugs interact with our bodies to produce the desired
 
 ### Weill Cornell Medicine – Cornell University, New York, NY (2021-Present) ### 
 - Ph.D., Physiology, Biophysics & Systems Biology (PBSB) program
-- Mentored by Dr. George Khelashvili and Dr. Harel Weinstein 
-
+- Mentored by Dr. George Khelashvili
+- Committee Members: Harel Weinstein DSc, Olga Boudker PhD, Daniel Heller PhD
+  
 ### University College London, London, UK (2019-2020) ### 
 - M.Sc., Drug Discovery and Development awarded First Class-Honors (4.0 GPA)
 
@@ -34,8 +35,9 @@ I have always wondered how drugs interact with our bodies to produce the desired
   *J. Chem. Inf. Model. 2021* 
   [Paper](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
 - **‘Automating and Optimizing Collective Variable Design with Gradient Descent-based Harmonic Linear Discriminant Analysis for Conformational Transitions of MFSD2A’**
-  Oh, Myongin, **Margarida Rosa**, Hengyi Xie, George Khelashvili. (manuscript under review) 
-
+  Oh, Myongin†, **Margarida Rosa†**, Hengyi Xie, George Khelashvili. (manuscript under review) 
+  † denotes equal contribution
+  
 ## Poster Presentations ##
 - “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Biophysics Society Meeting **(Abstract selected for Travel Award)** Feb. 2024.
 - “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Weill Cornell Medicine PBSB Departmental Retreat, Nov. 2023.
