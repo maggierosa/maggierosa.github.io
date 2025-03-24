@@ -65,10 +65,6 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 - **Rosa M.**, Qiu B., Boudker O., Khelashvili G. ‘Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments’, Poster, Physiology, Biophysics and System Biology (PBSB) Department Retreat at Weill Cornell Medicine. 2022. New York City, NY.  **3rd Place Award for Best Poster Presentation**
 - **Rosa M.**, Khelashvili G. ‘Lipid scrambling mechanisms of β1- adrenergic receptor (β1AR) revealed by computational experiments’. Poster, 41st Vincent du Vigneaud Research Symposium at Weill Cornell Medicine. 2022. New York City, NY. **1st Place Award for Best Poster Presentation** 
 
-![Alt text] (Screenshot 2025-03-24 at 12.02.19.png)
-
-![Alt text] (Screenshot 2025-03-24 at 12.03.52.png)
-
 ## Software Experience ##
 During my current PhD research I developed an open-source Python-based machine learning framework using Linear Discriminant Analysis for automating collective variable (CV) discovery, reducing bias of CV selection for MD simulations. Published in Biophysical Journal, 2024.  Software is publicly available in here [Link]((https://github.com/KhelashviliLab/Automated-CV-Design)). I have also designed and implemented HPC-optimized Python and Tcl/tk scripts for of large-scale MD data analysis and integrated advanced computational biophysics methods including time-independent component analysis, deep convolutional neural networks, and Markov State Models to predict MFSD2A transporter transition states and free energy landscapes. 
 
