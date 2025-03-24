@@ -28,7 +28,7 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
   *Biophysical Journal, June 2024*
   [Link](https://doi.org/10.1016/j.bpj.2024.06.024)
   
-  - **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
+- **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
   Eunice Cho, **Margarida Rosa**, Ruhi Anjum, Saman Mehmood, Mariya Soban, Moniza Mujtaba, Khair Bux, Syed T. Moin, Mohammad Tanweer, Sarath Dantu,   Alessandro   Pandini, Junqi Yin, Heng Ma, Arvind Ramanathan, Barira Islam, Antonia S. J. S. Mey, Debsindhu Bhowmik, and Shozeb Haider
   *J. Chem. Inf. Model. 2021* 
   [Link](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
@@ -64,6 +64,10 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 - **Rosa M.**, Oh M., Khelashvili G. ‘Automating collective variable discovery from molecular dynamics simulations using machine learning’, Poster, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. 2024. New York City, NY. **1st Place Award for Best Poster Presentation**
 - **Rosa M.**, Qiu B., Boudker O., Khelashvili G. ‘Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments’, Poster, Physiology, Biophysics and System Biology (PBSB) Department Retreat at Weill Cornell Medicine. 2022. New York City, NY.  **3rd Place Award for Best Poster Presentation**
 - **Rosa M.**, Khelashvili G. ‘Lipid scrambling mechanisms of β1- adrenergic receptor (β1AR) revealed by computational experiments’. Poster, 41st Vincent du Vigneaud Research Symposium at Weill Cornell Medicine. 2022. New York City, NY. **1st Place Award for Best Poster Presentation** 
+
+![Alt text] (Screenshot 2025-03-24 at 12.02.19.png)
+
+![Alt text] (Screenshot 2025-03-24 at 12.03.52.png)
 
 ## Software Experience ##
 During my current PhD research I developed an open-source Python-based machine learning framework using Linear Discriminant Analysis for automating collective variable (CV) discovery, reducing bias of CV selection for MD simulations. Published in Biophysical Journal, 2024.  Software is publicly available in here [Link]((https://github.com/KhelashviliLab/Automated-CV-Design)). I have also designed and implemented HPC-optimized Python and Tcl/tk scripts for of large-scale MD data analysis and integrated advanced computational biophysics methods including time-independent component analysis, deep convolutional neural networks, and Markov State Models to predict MFSD2A transporter transition states and free energy landscapes. 
