@@ -1,5 +1,4 @@
-# Margarida Rosa #
-# (maarg·eriydah r·oh·z·uh) #
+# Margarida Rosa # (maarg·eriydah r·oh·z·uh)
 
 ## About Me ##
 
@@ -51,23 +50,23 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 - **Valedictorian of 2016 Class** (Jul. 2016)
 - **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. (Jul. 2016)
   
-# Presentations #
+## Presentations ##
 
-## Invited Talks ##
+**Invited Talks**
 -**Rosa M.** “The molecular mechanism of Li+ Inhibition in MFSD2A-Mediated Lysolipid Transport”, Talk, Research in Progress Seminar Series at Weill Cornell Medicine. May 2025. New York City, NY.
 - **Rosa M.**  “The molecular mechanism of MFSD2A: a potential gateway for drug delivery to the brain” Talk, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. February 2025. New York City, NY.
 - **Rosa M.**,  Shore D., “Applications of Dimensionality Reduction Techniques” Lecture, Quantitative Biology II Course, Weill Cornell Medicine. October 2024. New York City, NY.
 - **Rosa M.** ‘Persuading the Blood-Brain Barrier Bouncer to let you into the Brain Party’, Talk, 3-Minute Thesis (3MT) Competition at Weill Cornell Medicine. 2022. New York City, NY. Finalist
 - **Rosa M.**, Haider S. ‘Investigating SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), an essential protein for RNA replication and potential drug target’. Talk, School of Pharmacy University College London. 2020. London, UK. Honors
 
-## Selected Poster Presentations ##
+**Selected Poster Presentations**
 - **Rosa M.**, Oh M., Khelashvili G. ‘Automating collective variable discovery from molecular dynamics simulations using machine learning’, Poster, Biophysical Society (BPS) Meeting. 2024. Philadelphia, PA. **Travel Award Winner**
 - **Rosa M.**, Oh M., Khelashvili G. ‘Automating collective variable discovery from molecular dynamics simulations using machine learning’, Poster, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. 2024. New York City, NY. **1st Place Award for Best Poster Presentation**
 - **Rosa M.**, Qiu B., Boudker O., Khelashvili G. ‘Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments’, Poster, Physiology, Biophysics and System Biology (PBSB) Department Retreat at Weill Cornell Medicine. 2022. New York City, NY.  **3rd Place Award for Best Poster Presentation**
 - **Rosa M.**, Khelashvili G. ‘Lipid scrambling mechanisms of β1- adrenergic receptor (β1AR) revealed by computational experiments’. Poster, 41st Vincent du Vigneaud Research Symposium at Weill Cornell Medicine. 2022. New York City, NY. **1st Place Award for Best Poster Presentation** 
 
 ## Software Experience ##
-During my current PhD research I developed an open-source Python-based machine learning framework using Linear Discriminant Analysis for automating collective variable (CV) discovery, reducing bias of CV selection for MD simulations. Published in Biophysical Journal, 2024.  Software is publicly available in my Github repository. I have also designed and implemented HPC-optimized Python and Tcl/tk scripts for of large-scale MD data analysis and integrated advanced computational biophysics methods including time-independent component analysis, deep convolutional neural networks, and Markov State Models to predict MFSD2A transporter transition states and free energy landscapes. 
+During my current PhD research I developed an open-source Python-based machine learning framework using Linear Discriminant Analysis for automating collective variable (CV) discovery, reducing bias of CV selection for MD simulations. Published in Biophysical Journal, 2024.  Software is publicly available in here [Link]((https://github.com/KhelashviliLab/Automated-CV-Design)). I have also designed and implemented HPC-optimized Python and Tcl/tk scripts for of large-scale MD data analysis and integrated advanced computational biophysics methods including time-independent component analysis, deep convolutional neural networks, and Markov State Models to predict MFSD2A transporter transition states and free energy landscapes. 
 
 **Computational skills:**
 -	**Software Development:** Machine learning (scikit-learn, xgboost, niapy), feature selection, statistical data analysis, regression, dimensionality reduction (PCA, LDA, tiCA). 
@@ -83,16 +82,18 @@ I have always wondered how drugs interact with our bodies to produce the desired
 <img width="200" alt="Screenshot 2022-09-18 at 11 11 49" src="https://user-images.githubusercontent.com/99993156/190914287-2208d9af-27f7-45b5-ae61-b810c7462ee9.png">
 
 
-## References ##
-More can be provided upon request: 
-[Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf);  
-[QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf);  
-[QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf). 
-
-
+## Contact Details ##
 I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:
 
 [Email](Email.md)
 
 [LinkedIn](https://www.linkedin.com/in/mmargaridarosa/)
+
+*Updated References can be provided upon request:* 
+[Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf);  
+[QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf);  
+[QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf). 
+
+
+
 
