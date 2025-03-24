@@ -1,4 +1,4 @@
-# Margarida Rosa # (maarg·eriydah r·oh·z·uh)
+# Margarida Rosa (maarg·eriydah r·oh·z·uh)
 
 ## About Me ##
 
@@ -53,7 +53,7 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 ## Presentations ##
 
 **Invited Talks**
--**Rosa M.** “The molecular mechanism of Li+ Inhibition in MFSD2A-Mediated Lysolipid Transport”, Talk, Research in Progress Seminar Series at Weill Cornell Medicine. May 2025. New York City, NY.
+- **Rosa M.** “The molecular mechanism of Li+ Inhibition in MFSD2A-Mediated Lysolipid Transport”, Talk, Research in Progress Seminar Series at Weill Cornell Medicine. May 2025. New York City, NY.
 - **Rosa M.**  “The molecular mechanism of MFSD2A: a potential gateway for drug delivery to the brain” Talk, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. February 2025. New York City, NY.
 - **Rosa M.**,  Shore D., “Applications of Dimensionality Reduction Techniques” Lecture, Quantitative Biology II Course, Weill Cornell Medicine. October 2024. New York City, NY.
 - **Rosa M.** ‘Persuading the Blood-Brain Barrier Bouncer to let you into the Brain Party’, Talk, 3-Minute Thesis (3MT) Competition at Weill Cornell Medicine. 2022. New York City, NY. Finalist
