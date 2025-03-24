@@ -3,17 +3,12 @@
 
 ## About Me ##
 
-Hi! My name is Margarida Rosa, but you can call me Maggie :) and my preferred pronouns are she/her. 
-I am originally from Portugal, but I completed my Bachelors and Masters in London, lived in Switzerland for six-months, and now I am in NYC pursuing a Ph.D. at [Weill Cornell Medicine](http://www.weill.cornell.edu) under the supervision of [Prof. George Khelashvili](https://www.physiology.med.cornell.edu/people/george-khelashvili-ph-d/).
+Welcome! My name is Margarida Rosa, but you can call me Maggie :) and my preferred pronouns are she/her. 
+I am originally from Portugal, but I completed my Bachelors and Masters in London, and now I am in NYC pursuing a Ph.D. at [Weill Cornell Medicine](http://www.weill.cornell.edu) under the supervision of [Prof. George Khelashvili](https://www.physiology.med.cornell.edu/people/george-khelashvili-ph-d/).
 
+### My research interests lie at the intersection of advanced computational biophysical methods—such as machine learning and Markov state models—and their application to understanding biologically relevant systems.### 
 
 <img width="200" alt="Screenshot 2022-09-18 at 11 11 49" src="https://user-images.githubusercontent.com/99993156/190914287-2208d9af-27f7-45b5-ae61-b810c7462ee9.png">
-
-## Research Interests ##
-
-### Using innovative computational technologies such as state-of-art atomistic molecular dynamics (MD) simulations and advanced biophysics methods like Machine Learning (ML) techniques to investigate membrane protein biophysics in a physiological and biological setting focused on drug development.
-
-I have always wondered how drugs interact with our bodies to produce the desired effect, and how technology can be used to accelerate drug development and delivery. In the pursuit of answers, I earned a B.Sc.(Hons) in Biochemistry from [Queen Mary University of London](https://www.qmul.ac.uk), where I was fascinated in studying drug-receptor interactions. I decided to further pursue my interests by completing a M.Sc. in Drug Discovery and Development at [University College London](https://www.ucl.ac.uk/), where my passion for computational drug-design was ignited. During my Master’s thesis I investigated the structural modeling of SARS-CoV-2 main protease using Molecular Dynamics (MD) simulations, where I was thrilled to have my work published contributing to the scientific field during an emerging pandemic. My curiosity for innovative technologies fueled my desire to complete a 6-month internship at [Roche](https://www.roche.com), where I used unsupervised ML algorithms for drug substance development. To further deepen my knowledge on how technology can be used to accelerate drug development, for my graduate studies, I am pursuing computational biophysics research. In the [Khelashvili lab](https://www.physiology.med.cornell.edu/faculty/khelashvili/lab/research.html), we focus on investigating the function-related molecular mechanisms underlying various biological processes vital to human health using advanced quantitative computational approaches carried out on high-performance computing clusters. 
 
 ## Education ##
 
@@ -28,28 +23,28 @@ I have always wondered how drugs interact with our bodies to produce the desired
 ### Queen Mary University of London, London, UK (2016-2019) ### 
 - B.Sc., Biochemistry awarded First Class Honors (4.0 GPA) 
 
+
+### Computational biophysicist specializing in molecular modeling, machine learning, and large-scale molecular dynamics simulations, with 5+ years of experience in software development for drug discovery. Proven expertise in interdisciplinary research, high-performance computing, and method design, with multiple publications, awards, and leadership in mentoring and open-source projects ### 
+
 ## Publications ##
 
-- **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
+- **‘Automated Collective Variable Discovery for MFSD2A Transporter from Molecular Dynamics Simulations’**
+  Oh, Myongin†, **Margarida Rosa†**, Hengyi Xie, George Khelashvili.
+  † denotes equal contribution
+  *Biophysical Journal, June 2024*
+  [Link](https://doi.org/10.1016/j.bpj.2024.06.024)
+  
+  - **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
   Eunice Cho, **Margarida Rosa**, Ruhi Anjum, Saman Mehmood, Mariya Soban, Moniza Mujtaba, Khair Bux, Syed T. Moin, Mohammad Tanweer, Sarath Dantu,   Alessandro   Pandini, Junqi Yin, Heng Ma, Arvind Ramanathan, Barira Islam, Antonia S. J. S. Mey, Debsindhu Bhowmik, and Shozeb Haider
   *J. Chem. Inf. Model. 2021* 
-  [Paper](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
-- **‘Automating and Optimizing Collective Variable Design with Gradient Descent-based Harmonic Linear Discriminant Analysis for Conformational Transitions of MFSD2A’**
-  Oh, Myongin†, **Margarida Rosa†**, Hengyi Xie, George Khelashvili. (manuscript under review) 
-  † denotes equal contribution
-  
-## Poster Presentations ##
-- “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Biophysics Society Meeting **(Abstract selected for Travel Award)** Feb. 2024.
-- “Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning” at Weill Cornell Medicine PBSB Departmental Retreat, Nov. 2023.
-- “Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments” at Weill Cornell Medicine PBSB Departmental Retreat, Nov. 2022.
-- “Lipid Scrambling Mechanisms of β-1 Adrenergic Receptor (β-1AR) Revealed by Computational Experiments” at Vincent Du Vigneaud Symposium, Apr. 2022. 
+  [Link](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
 
-## Selected Awards ##
-- **Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
-- **Weill Cornell Graduate School Merit Fellowship recipient**, awarded to top 13% of applicants in recognition of exemplary academic and research achievements as a trainee. (2023-2024)
-- **3rd Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Retreat (Nov. 2022)
+## Awards and Distinctions ##
+- **Biopysical Society Meeting Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
+-**1st Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Recruitment (Jan. 2024)
+- **Markey Graduate School of Medical Science Fellowship**, awarded to top 13% of applicants in recognition of exemplary academic and research achievements as a trainee at Weill Cornell Medicine. (2023-2024)
+- **3rd Place for Best Poster Presentation** titled *"Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments"* issued by Weill Cornell Medicine Departmental Retreat (Nov. 2022)
 - **Finalist at 3-Minute Thesis Competition (3MT)** at Weill Cornell Medicine (Dec. 2022).
-- **Nominated candidate** for the internal competition of the Google Ph.D. Fellowship at Weill Cornell Medicine (Oct. 2022)
 - **1st Place for Best First-Year Poster Presentation** titled: *“Lipid Scrambling Mechanisms of β-1 Adrenergic Receptor (β-1AR) Revealed by Computational Experiments”* under Prof. George Khelashvili’s mentorship and issued at the Vincent Du Vigneaud Symposium. 
 - **Continuous Learner Achievement** issued by Roche Pharmaceutical Company (Jun. 2021)
 - **Honors for Master's Thesis** titled *“Structural modelling of the SARS-CoV-2 RNA-dependent RNA-polymerase (RdRp) enzyme, an essential protein for viral replication”* under Prof. Shozeb Haider's mentorship and issued by University College London (Dec. 2020)   
@@ -60,12 +55,25 @@ I have always wondered how drugs interact with our bodies to produce the desired
 - **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. Jul. 2016)
 - **Valedictorian of 2016 Class** (Jul. 2016)
 - **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. (Jul. 2016)
+  
+## Presentations ##
+# Invited Talks #
+-**Rosa M.** “The molecular mechanism of Li+ Inhibition in MFSD2A-Mediated Lysolipid Transport”, Talk, Research in Progress Seminar Series at Weill Cornell Medicine. May 2025. New York City, NY.
+- **Rosa M.**  “The molecular mechanism of MFSD2A: a potential gateway for drug delivery to the brain” Talk, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. February 2025. New York City, NY.
+- **Rosa M.**,  Shore D., “Applications of Dimensionality Reduction Techniques” Lecture, Quantitative Biology II Course, Weill Cornell Medicine. October 2024. New York City, NY.
+- **Rosa M.** ‘Persuading the Blood-Brain Barrier Bouncer to let you into the Brain Party’, Talk, 3-Minute Thesis (3MT) Competition at Weill Cornell Medicine. 2022. New York City, NY. Finalist
+- **Rosa M.**, Haider S. ‘Investigating SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), an essential protein for RNA replication and potential drug target’. Talk, School of Pharmacy University College London. 2020. London, UK. Honors
+# Selected Poster Presentations #
+- **Rosa M.**, Oh M., Khelashvili G. ‘Automating collective variable discovery from molecular dynamics simulations using machine learning’, Poster, Biophysical Society (BPS) Meeting. 2024. Philadelphia, PA. **Travel Award Winner**
+- **Rosa M.**, Oh M., Khelashvili G. ‘Automating collective variable discovery from molecular dynamics simulations using machine learning’, Poster, Physiology, Biophysics and System Biology (PBSB) Recruitment at Weill Cornell Medicine. 2024. New York City, NY. **1st Place Award for Best Poster Presentation**
+- **Rosa M.**, Qiu B., Boudker O., Khelashvili G. ‘Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments’, Poster, Physiology, Biophysics and System Biology (PBSB) Department Retreat at Weill Cornell Medicine. 2022. New York City, NY.  **3rd Place Award for Best Poster Presentation**
+- **Rosa M.**, Khelashvili G. ‘Lipid scrambling mechanisms of β1- adrenergic receptor (β1AR) revealed by computational experiments’. Poster, 41st Vincent du Vigneaud Research Symposium at Weill Cornell Medicine. 2022. New York City, NY. **1st Place Award for Best Poster Presentation** 
 
 ## References ##
+More can be provided upon request: 
 [Roche Internship Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607147/Roche_Reference.pdf);  
 [QMUL Thesis Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607154/Trimmer_Reference_.pdf);  
 [QMUL Advisor Reference](https://github.com/maggierosa/maggierosa.github.io/files/9607156/Reference.for.Maria.Margarida.Rosa.pdf). 
-
 
 
 I am passionate about applying my knowledge and experience into real-life contexts, and pursuing a lifelong learning career where I can continuously master new skills and learn from others around me. If you have any ideas and want to collaborate feel free to reach me at:
