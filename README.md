@@ -35,7 +35,7 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 
 ## Awards and Distinctions ##
 - **Biopysical Society Meeting Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
--**1st Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Recruitment (Jan. 2024)
+- **1st Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Recruitment (Jan. 2024)
 - **Markey Graduate School of Medical Science Fellowship**, awarded to top 13% of applicants in recognition of exemplary academic and research achievements as a trainee at Weill Cornell Medicine. (2023-2024)
 - **3rd Place for Best Poster Presentation** titled *"Human excitatory amino acid transporter 3 (hEAAT3) cation selectivity investigated by computational experiments"* issued by Weill Cornell Medicine Departmental Retreat (Nov. 2022)
 - **Finalist at 3-Minute Thesis Competition (3MT)** at Weill Cornell Medicine (Dec. 2022).
