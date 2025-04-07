@@ -28,12 +28,12 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
   *Biophysical Journal, June 2024*
   [Link](https://doi.org/10.1016/j.bpj.2024.06.024)
   
-- **Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites**
+- **'Dynamic Profiling of β-Coronavirus 3CL Mpro Protease Ligand-Binding Sites'**
   Eunice Cho, **Margarida Rosa**, Ruhi Anjum, Saman Mehmood, Mariya Soban, Moniza Mujtaba, Khair Bux, Syed T. Moin, Mohammad Tanweer, Sarath Dantu,   Alessandro   Pandini, Junqi Yin, Heng Ma, Arvind Ramanathan, Barira Islam, Antonia S. J. S. Mey, Debsindhu Bhowmik, and Shozeb Haider
   *J. Chem. Inf. Model. 2021* 
   [Link](https://www.pubs.acs.org/doi/10.1021/acs.jcim.1c00449)
 
-## Awards and Distinctions ##
+## Selected Awards and Distinctions ##
 - **Biopysical Society Meeting Travel Award** issued by Biopysical Society Meeting (Feb. 2024)
 - **1st Place for Best Poster Presentation** titled *"Automating Collective Variable Discovery from Molecular Dynamics Simulations using Machine Learning"* issued by Weill Cornell Medicine Departmental Recruitment (Jan. 2024)
 - **Markey Graduate School of Medical Science Fellowship**, awarded to top 13% of applicants in recognition of exemplary academic and research achievements as a trainee at Weill Cornell Medicine. (2023-2024)
@@ -44,11 +44,6 @@ I am originally from Portugal, but I completed my Bachelors and Masters in Londo
 - **Honors for Master's Thesis** titled *“Structural modelling of the SARS-CoV-2 RNA-dependent RNA-polymerase (RdRp) enzyme, an essential protein for viral replication”* under Prof. Shozeb Haider's mentorship and issued by University College London (Dec. 2020)   
 - **Honors for Master’s Degree** issued by University College London (Dec. 2020)
 - **Honors for Biochemistry Degree** issued by Queen Mary University of London (Jul. 2019)
-- **President’s Education Award issued by President Barack Obama** for recognition of *outstanding academic excellence*. (Jul. 2016)
-- **Oxford Chemistry Award** issued by Oxford University during summer course. (Jul. 2016)
-- **International Understanding Award** awarded to student *"who is a good representative of their own country, with a positive attitude toward the life and culture of others, able to converse in at least two languages, a contributing force in the life of school, with the ability to bring differing people together into a sense of community, thus furthering the cause of international understanding"* issued by ECIS. Jul. 2016)
-- **Valedictorian of 2016 Class** (Jul. 2016)
-- **National Honor Society** member of the Vasco da Gama Chapter, where *membership is based on scholarship, leadership, service and character"*. (Jul. 2016)
   
 ## Presentations ##
 
